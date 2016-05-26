@@ -24,10 +24,25 @@ d3.csv("Champions.csv", function(data){
       }
     }, {
       head : 'Golden Ball Winner',
-      cl: 'goal',
+      cl: 'best player',
       html: function(d){
         return d.GoldenBall;
       }
+    },
+    {
+        head: 'Golden Boot Winner',
+        cl: 'goal',
+        html: function(d){
+        return d.GoldenBoot;
+        }
+    },
+    {
+        head: 'Golden Glove',
+        cl: 'saves',
+        html: function(d){
+            
+        }
+        
     }];
     var table = canvas.append("foreignObject")
       .attr("width", width)
@@ -75,48 +90,6 @@ d3.csv("Champions.csv", function(data){
       });
 });
 
-/*    canvas.selectAll("rect")
-        .data(data)
-        .enter()
-            .append("text")
-            .attr("fill", "black")
-            .attr("y", 75)
-            .html(function(d){console.log(d.Year); return(d.Year + "<br/>");});
 
-    // The table generation function
-
-    function tabulate(data, columns) {
-
-        // append the header row
-        thead.append("tr")
-            .selectAll("th")
-            .data(columns)
-            .enter()
-            .append("th")
-                .text(function(column) { return column; });
-
-        // create a row for each object in the data
-        var rows = tbody.selectAll("tr")
-            .data(data)
-            .enter()
-            .append("tr");
-
-        // create a cell in each row for each column
-        var cells = rows.selectAll("td")
-            .data(function(row) {
-                return columns.map(function(column) {
-                    return {column: column, value: row[column]};
-                });
-            })
-            .enter()
-            .append("td")
-            .attr("style", "font-family: Courier") // sets the font style
-                .html(function(d) { return d.value; });
-
-        return table;
-    }
-
-    // render the table
-     var peopleTable = tabulate(data, ["Year", "Champion"]);*/
     
 
