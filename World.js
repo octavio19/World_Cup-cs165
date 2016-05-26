@@ -1,5 +1,5 @@
-var margin = {top: 30, right: 20, bottom: 30, left: 50},
-    width = 600 - margin.left - margin.right,
+var margin = {top: 30, right: 20, bottom: 30, left: 10},
+    width = 1000 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
 
 var canvas = d3.select("body")
@@ -33,14 +33,16 @@ d3.csv("Champions.csv", function(data){
         head: 'Golden Boot Winner',
         cl: 'goal',
         html: function(d){
-        return d.GoldenBoot;
+            return d.GoldenBoot;
         }
     },
     {
         head: 'Golden Glove',
         cl: 'saves',
         html: function(d){
-            
+            console.log(d);
+            console.log(d.GoldenGlove);
+            return d.GoldenGlove;
         }
         
     }];

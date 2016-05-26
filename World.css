@@ -1,4 +1,8 @@
 
 td, th {
-    padding: 1px 4px;
+    overflow:hidden; 
+    white-space:nowrap;
+    padding: 1px 6px;
 }
+
+table {table-layout:fixed}
