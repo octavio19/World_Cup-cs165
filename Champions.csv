@@ -1,21 +1,21 @@
-Year,Champion,GoldenBall
-2014,Germany, Lionel Messi(ARG)
-2010,Spain, Diego Forlan(URU)
-2006,Italy, Zinedine Zidane(FRA)
-2002,Brazil, Oliver Kahn(GER)
-1998,France, Ronaldo(BRA)
-1994,Brazil, Romário
-1990,Germany, Salvatore Schillaci(ITA)
-1986,Argentina, Diego Maradona(ARG)
-1982,Italy, Paulo Rossi(ITA)
-1978,Argentina, Mario Kempes(ARG)
-1974,Germany, Grzegorz Lato(POL)
-1970,Brazil, Not Awarded
-1966,England, Not Awarded
-1962,Brazil, Not Awarded
-1958,Brazil, Not Awarded
-1954,Germany, Not Awarded
-1950,Uruguay, Not Awarded
-1938,Italy, Not Awarded
-1934,Italy, Not Awarded
-1930,Uruguay, Not Awarded
+Year,Champion,GoldenBall, Golden Ball Winner, Golden Glove 
+2014,Germany, Lionel Messi(ARG), James Rodriguez(COL), Manuel Neuer(GER)
+2010,Spain, Diego Forlan(URU), Thomas Mueller(GER), Iker Casillas(SPA)
+2006,Italy, Zinedine Zidane(FRA), Miroslav Klose(GER), Gianluigi Buffon(ITA)
+2002,Brazil, Oliver Kahn(GER), Ronaldo(BRA), Oliver Kahn(GER)
+1998,France, Ronaldo(BRA), Davor Suker(CRO), Fabian Barthez(FRA)
+1994,Brazil, Romário, Hristo Stoichkov, Michel Preudhomme(BEL)
+1990,Germany, Salvatore Schillaci(ITA), Salvatore Schillaci(ITA), Robert Prosinecki
+1986,Argentina, Diego Maradona(ARG), Gary Lineker(ENG), Enzo Scifo(BEL)
+1982,Italy, Paulo Rossi(ITA), Paolo Rossi(ITA), Manuel Amoros(FRA)
+1978,Argentina, Mario Kempes(ARG), Mario Kempes(ARG), Not Awarded
+1974,Germany, Grzegorz Lato(POL), Grzegorz Lato, Not Awarded
+1970,Brazil, Not Awarded, Gerd Mueller(GER), Not Awarded
+1966,England, Not Awarded, Eusebio(POR), Not Awarded
+1962,Brazil, Not Awarded, Not Awarded, Not Awarded
+1958,Brazil, Not Awarded, Not Awarded, Not Awarded
+1954,Germany, Not Awarded,Not Awarded, Not Awarded
+1950,Uruguay, Not Awarded,Not Awarded, Not Awarded
+1938,Italy, Not Awarded,Not Awarded, Not Awarded
+1934,Italy, Not Awarded,Not Awarded, Not Awarded
+1930,Uruguay, Not Awarded,Not Awarded, Not Awarded
