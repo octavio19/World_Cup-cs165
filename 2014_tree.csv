@@ -1,0 +1,32 @@
+name,parent
+Germany,null
+Semifinals: Germany,Germany
+Semifinals: Argentina,Germany
+Quarterfinals: Brazil,Semifinals: Germany
+Quarterfinals: Germany,Semifinals: Germany
+Quarterfinals: Netherlands,Semifinals: Argentina
+Quarterfinals: Argentina,Semifinals: Argentina
+Round of 16: Brazil,Quarterfinals: Brazil
+Round of 16: Columbia,Quarterfinals: Brazil
+Round of 16: France,Quarterfinals: Germany
+Round of 16: Germany,Quarterfinals: Germany
+Round of 16: Netherlands,Quarterfinals: Netherlands
+Round of 16: Costa Rica,Quarterfinals: Netherlands
+Round of 16: Argentina,Quarterfinals: Argentina
+Round of 16: Belgium,Quarterfinals: Argentina
+Round of 32: Brazil,Round of 16: Brazil
+Round of 32: Chile,Round of 16: Brazil
+Round of 32: Columbia,Round of 16: Columbia
+Round of 32: Uruguay,Round of 16: Columbia
+Round of 32: Costa Rica,Round of 16: Costa Rica
+Round of 32: Greece,Round of 16: Costa Rica
+Round of 32: Switzerland,Round of 16: Argentina
+Round of 32: Belgium,Round of 16: Belgium
+Round of 32: Algeria,Round of 16: Germany
+Round of 32: Germany,Round of 16: Germany
+Round of 32: France,Round of 16: France
+Round of 32: Nigeria,Round of 16: France
+Round of 32: Netherlands,Round of 16: Netherlands
+Round of 32: Mexico,Round of 16: Netherlands
+Round of 32: Switzerland,Round of 16: Argentina
+Round of 32: United States,Round of 16: Belgium

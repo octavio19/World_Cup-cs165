@@ -1,0 +1,32 @@
+name,parent
+Brazil,null
+Finals: Germany,Brazil
+Finals: Germany,Brazil
+Semifinals: Germany,Finals: Germany
+Semifinals: South Korea,Finals: Germany
+Semifinals: Brazil,Finals: Brazil
+Semifinals: Turkey,Finals: Brazil
+Quarterfinals: Germany,Semifinals: Germany
+Quarterfinals: United States,Semifinals: Germany
+Quarterfinals: Spain,Semifinals: South Korea
+Quarterfinals: South Korea,Semifinals: South Korea
+Quarterfinals: England,Semifinals: Brazil
+Quarterfinals: Brazil,Semifinals: Brazil
+Quarterfinals: Senegal,Semifinals: Turkey
+Quarterfinals: Turkey,Semifinals: Turkey
+Round of 16: Germany,Quarterfinals: Germany
+Round of 16: Paraguay,Quarterfinals: Germany
+Round of 16: Mexico,Quarterfinals: United States
+Round of 16: United States,Quarterfinals: United States
+Round of 16: Spain,Quarterfinals: Spain
+Round of 16: Republic of Ireland,Quarterfinals: Spain
+Round of 16: South Korea,Quarterfinals: South Korea
+Round of 16: Italy,Quarterfinals: South Korea
+Round of 16: England,Quarterfinals: England
+Round of 16: Denmark,Quarterfinals: England
+Round of 16: Brazil,Quarterfinals: Brazil
+Round of 16: Belgium,Quarterfinals: Brazil
+Round of 16: Sweeden,Quarterfinals: Senegal
+Round of 16: Senegal,Quarterfinals: Senegal
+Round of 16: Japan,Quarterfinals: Turkey
+Round of 16: Turkey,Quarterfinals: Turkey
