@@ -26,7 +26,9 @@ d3.csv("Champions.csv", function(data){
       head : 'Golden Ball Winner',
       cl: 'best player',
       html: function(d){
-        return d.GoldenBall;
+        var returner = d.GoldenBall + ".jpg";
+        console.log(returner);
+        return "<img src=" + returner + ">";
       }
     },
     {
@@ -40,9 +42,7 @@ d3.csv("Champions.csv", function(data){
         head: 'Golden Glove',
         cl: 'saves',
         html: function(d){
-            console.log(d);
-            console.log(d.GoldenGlove);
-            return d.GoldenGlove;
+            return d.GoldenGlove; // get image and return image
         }
         
     }];
@@ -58,11 +58,9 @@ d3.csv("Champions.csv", function(data){
       .data(data.columns).enter()
       .append('th')
       .attr('class', function(d) {
-        console.log(d);
         return d.cl;
       })
       .text(function(d) {
-        console.log(d);
         return d.head;
       });
 
@@ -79,7 +77,6 @@ d3.csv("Champions.csv", function(data){
           d3.keys(c).forEach(function(k) {
             cell[k] = typeof c[k] == 'function' ? c[k](row, i) : c[k];
           });
-          console.log(cell);
           return cell;
         });
       }).enter()
@@ -88,7 +85,7 @@ d3.csv("Champions.csv", function(data){
         return d.html;
       })
       .attr('class', function(d) {
-        return d.Champion;
+        return d.cl;
       });
 });
 
