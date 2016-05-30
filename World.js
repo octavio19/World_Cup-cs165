@@ -35,14 +35,18 @@ d3.csv("Champions.csv", function(data){
         head: 'Golden Boot Winner',
         cl: 'goal',
         html: function(d){
-            return d.GoldenBoot;
+            var returner = d.GoldenBoot + ".jpg";
+            // return d.GoldenBoot;
+            return "<img src=" + returner + ">";
         }
     },
     {
         head: 'Golden Glove',
         cl: 'saves',
         html: function(d){
-            return d.GoldenGlove; // get image and return image
+            var returner = d.GoldenGlove + ".jpg";
+            return "<img src=" + returner + ">";
+            //return d.GoldenGlove; // get image and return image
         }
         
     }];
