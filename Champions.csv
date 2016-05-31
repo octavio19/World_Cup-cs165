@@ -1,21 +1,21 @@
 Year,Champion,GoldenBall,GoldenBoot,GoldenGlove
-2014,Germany, LionelMessi(ARG),JamesRodriguez(COL),ManuelNeuer(GER)
-2010,Spain, DiegoForlan(URU),ThomasMueller(GER),IkerCasillas(SPA)
-2006,Italy, ZinedineZidane(FRA),MiroslavKlose(GER),GianluigiBuffon(ITA)
-2002,Brazil, OliverKahn(GER),Ronaldo(BRA),OliverKahn(GER)
-1998,France, Ronaldo(BRA),DavorSuker(CRO),FabianBarthez(FRA)
-1994,Brazil, Romário,HristoStoichkov,MichelPreudhomme(BEL)
-1990,Germany, SalvatoreSchillaci(ITA),SalvatoreSchillaci(ITA),RobertProsinecki
-1986,Argentina, DiegoMaradona(ARG),GaryLineker(ENG),EnzoScifo(BEL)
-1982,Italy, PauloRossi(ITA),PaoloRossi(ITA), ManuelAmoros(FRA)
-1978,Argentina, MarioKempes(ARG), MarioKempes(ARG), NotAwarded
-1974,Germany, GrzegorzLato(POL), GrzegorzLato, NotAwarded
-1970,Brazil, NotAwarded, GerdMueller(GER), NotAwarded
-1966,England, NotAwarded, Eusebio(POR), NotAwarded
+2014,Germany, LionelMessi,JamesRodriguez,ManuelNeuer
+2010,Spain, DiegoForlan,ThomasMueller,IkerCasillas
+2006,Italy, ZinedineZidane,MiroslavKlose,GianluigiBuffon
+2002,Brazil, OliverKahn,Ronaldo,OliverKahn
+1998,France, Ronaldo,DavorSuker,FabianBarthez
+1994,Brazil, Romário,HristoStoichkov,MichelPreudhomme
+1990,Germany, SalvatoreSchillaci,SalvatoreSchillaci,RobertProsinecki
+1986,Argentina, DiegoMaradona,GaryLineker,EnzoScifo
+1982,Italy, PauloRossi,PauloRossi, ManuelAmoros
+1978,Argentina, MarioKempes, MarioKempes, NotAwarded
+1974,Germany, GrzegorzLato, GrzegorzLato, NotAwarded
+1970,Brazil, NotAwarded, GerdMueller, NotAwarded
+1966,England, NotAwarded, Eusebio, NotAwarded
 1962,Brazil, NotAwarded, NotAwarded, NotAwarded
-1958,Brazil, NotAwarded, NotAwarded, NotAwarded
-1954,Germany, NotAwarded,NotAwarded, NotAwarded
-1950,Uruguay, NotAwarded,NotAwarded, NotAwarded
-1938,Italy, NotAwarded,NotAwarded, NotAwarded
-1934,Italy, NotAwarded,NotAwarded, NotAwarded
-1930,Uruguay, NotAwarded,NotAwarded, NotAwarded
+1958,Brazil, NotAwarded,JustFontaine, NotAwarded
+1954,Germany, NotAwarded,SandorKocsis, NotAwarded
+1950,Uruguay, NotAwarded,Ademir, NotAwarded
+1938,Italy, NotAwarded,Leonidas, NotAwarded
+1934,Italy, NotAwarded,OldrichNejedly, NotAwarded
+1930,Uruguay, NotAwarded,GuillermoStabile, NotAwarded
