@@ -1,6 +1,7 @@
 var margin = {top: 30, right: 20, bottom: 30, left: 10},
     width = 1000 - margin.left - margin.right,
-    height = 500 - margin.top - margin.bottom;
+   // height = 500 - margin.top - margin.bottom;
+    height = 950;
 
 var canvas = d3.select("body")
     .append("svg")
@@ -23,7 +24,15 @@ d3.csv("Champions.csv", function(data){
         return d.Champion;
       }
     }, {
-      head : 'Golden Ball Winner',
+      head : '',
+      cl: 'flag',
+      html: function(d){
+        var returner = d.Champion + ".jpg";
+        console.log(returner);
+        return "<img src=" + returner + ">";
+      }
+    }, {
+      head : 'Golden Ball',
       cl: 'best player',
       html: function(d){
         var returner = d.GoldenBall + ".jpg";
@@ -32,7 +41,7 @@ d3.csv("Champions.csv", function(data){
       }
     },
     {
-        head: 'Golden Boot Winner',
+        head: 'Golden Boot',
         cl: 'goal',
         html: function(d){
             var returner = d.GoldenBoot + ".jpg";
