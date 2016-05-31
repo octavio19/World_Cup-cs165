@@ -11,6 +11,12 @@
            value="Go to 2014" 
            onclick="updateData2014()" />
 </div> 
+          <div id="option1">
+    <input name="updateButton1" 
+           type="button" 
+           value="Go to 2010" 
+           onclick="updateData2010()" />
+</div> 
       <style>
     
 	.node circle {
@@ -62,9 +68,13 @@ var svg = d3.select("body").append("svg")
   .append("g")
 	.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-// load the external data
-d3.csv("Blank_tree.csv", function(error, data) {
 
+
+// Updates data dynmaically to 2014 tournament    
+function updateData2014() {
+    
+d3.csv("2014_Tree.csv", function(error, data) {
+svg.selectAll("*").remove(); 
 // *********** Convert flat data into a nice tree ***************
 // create a name: node map
 var dataMap = data.reduce(function(map, node) {
@@ -91,7 +101,7 @@ data.forEach(function(node) {
   root = treeData[0];
   update(root);
 });
-
+}
 function update(source) {
 
   // Compute the new tree layout.
@@ -135,9 +145,13 @@ function update(source) {
     
     }
     
-function updateData2014() {
-d3.csv("2014_Tree.csv", function(error, data) {
-
+    
+    
+// 2010 tourny
+    
+function updateData2010() {
+d3.csv("2002_Tree.csv", function(error, data) {
+svg.selectAll("*").remove();
 // *********** Convert flat data into a nice tree ***************
 // create a name: node map
 var dataMap = data.reduce(function(map, node) {
@@ -164,8 +178,8 @@ data.forEach(function(node) {
   root = treeData[0];
   update(root);
 });
-}
-
+}    
+    
 </script>
 	
   </body>
