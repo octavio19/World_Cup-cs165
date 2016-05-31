@@ -17,6 +17,14 @@
            value="Go to 2010" 
            onclick="updateData2010()" />
 </div> 
+      
+      </div> 
+          <div id="option2">
+    <input name="updateButton2" 
+           type="button" 
+           value="Go to 2006" 
+           onclick="updateData2006()" />
+</div> 
       <style>
     
 	.node circle {
@@ -150,7 +158,7 @@ function update(source) {
 // 2010 tourny
     
 function updateData2010() {
-d3.csv("2002_Tree.csv", function(error, data) {
+d3.csv("2010_Tree.csv", function(error, data) {
 svg.selectAll("*").remove();
 // *********** Convert flat data into a nice tree ***************
 // create a name: node map
@@ -178,7 +186,44 @@ data.forEach(function(node) {
   root = treeData[0];
   update(root);
 });
+    
+    
 }    
+ 
+//2006
+    
+function updateData2006() {
+d3.csv("2006_Tree.csv", function(error, data) {
+svg.selectAll("*").remove();
+// *********** Convert flat data into a nice tree ***************
+// create a name: node map
+var dataMap = data.reduce(function(map, node) {
+	map[node.name] = node;
+	return map;
+}, {});
+
+// create the tree array
+var treeData = [];
+data.forEach(function(node) {
+	// add to parent
+	var parent = dataMap[node.parent];
+	if (parent) {
+		// create child array if it doesn't exist
+		(parent.children || (parent.children = []))
+			// add node to child array
+			.push(node);
+	} else {
+		// parent is null or missing
+		treeData.push(node);
+	}
+});
+
+  root = treeData[0];
+  update(root);
+});
+    
+    
+}       
     
 </script>
 	
