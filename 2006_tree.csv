@@ -1,0 +1,32 @@
+name,parent
+Italy,null
+Finals: Italy,Italy
+Finals: France,Italy
+Semifinals: Germany,Finals: Italy
+Semifinals: Italy,Finals: Italy
+Semifinals: Portugal,Finals: France
+Semifinals: France,Finals: France
+Quarterfinals: Germany,Semifinals: Germany
+Quarterfinals: Argentina,Semifinals: Germany
+Quarterfinals: Italy,Semifinals: Italy
+Quarterfinals: Ukraine,Semifinals: Italy
+Quarterfinals: England,Semifinals: Portugal
+Quarterfinals: Portugal,Semifinals: Portugal
+Quarterfinals: Brazil,Semifinals: France
+Quarterfinals: France,Semifinals: France
+Round of 16: Germany,Quarterfinals: Germany
+Round of 16: Sweeden,Quarterfinals: Germany
+Round of 16: Argentina,Quarterfinals: Argentina
+Round of 16: Mexico,Quarterfinals: Argentina
+Round of 16: Italy,Quarterfinals: Italy
+Round of 16: Australia,Quarterfinals: Italy
+Round of 16: Switzerland,Quarterfinals: Ukraine
+Round of 16: Ukraine,Quarterfinals: Ukraine
+Round of 16: England,Quarterfinals: England
+Round of 16: Ecuador,Quarterfinals: England
+Round of 16: Portugal,Quarterfinals: Portugal
+Round of 16: Netherlands,Quarterfinals: Portugal
+Round of 16: Brazil,Quarterfinals: Brazil
+Round of 16: Ghana,Quarterfinals: Brazil
+Round of 16: Spain,Quarterfinals: France
+Round of 16: France,Quarterfinals: France

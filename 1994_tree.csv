@@ -1,0 +1,32 @@
+name,parent
+Brazil,null
+Finals: Brazil,Brazil
+Finals: Italy,Brazil
+Semifinals: Brazil,Finals: Brazil
+Semifinals: Sweeden,Finals: Brazil
+Semifinals: Bulgaria,Finals: Italy
+Semifinals: Italy,Finals: Italy
+Quarterfinals: Romania,Semifinals: Sweeden
+Quarterfinals: Sweeden,Semifinals: Sweeden
+Quarterfinals: Netherlands,Semifinals: Brazil
+Quarterfinals: Brazil,Semifinals: Brazil
+Quarterfinals: Bulgaria,Semifinals: Bulgaria
+Quarterfinals: Germany,Semifinals: Bulgaria
+Quarterfinals: Italy,Semifinals: Italy
+Quarterfinals: Spain,Semifinals: Italy
+Round of 16: Romania,Quarterfinals: Romania
+Round of 16: Argentina,Quarterfinals: Romania
+Round of 16: Saudi Arabia,Quarterfinals: Sweeden
+Round of 16: Sweeden,Quarterfinals: Sweeden
+Round of 16: Netherlands,Quarterfinals: Netherlands
+Round of 16: Republic of Ireland,Quarterfinals: Netherlands
+Round of 16: Brazil,Quarterfinals: Brazil
+Round of 16: United States,Quarterfinals: Brazil
+Round of 16: Mexico,Quarterfinals: Bulgaria
+Round of 16: Bulgaria,Quarterfinals: Bulgaria
+Round of 16: Germany,Quarterfinals: Germany
+Round of 16: Belgium,Quarterfinals: Germany
+Round of 16: Nigeria,Quarterfinals: Italy
+Round of 16: Italy,Quarterfinals: Italy
+Round of 16: Spain,Quarterfinals: Spain
+Round of 16: Switzerland,Quarterfinals: Spain

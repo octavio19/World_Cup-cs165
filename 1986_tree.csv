@@ -1,0 +1,32 @@
+name,parent
+Argentina,null
+Finals: Argentina,Argentina
+Finals: West Germany,Argentina
+Semifinals: Argentina,Finals: Argentina
+Semifinals: Belgium,Finals: Argentina
+Semifinals: West Germany,Finals: West Germany
+Semifinals: France,Finals: West Germany
+Quarterfinals: Argentina,Semifinals: Argentina
+Quarterfinals: England,Semifinals: Argentina
+Quarterfinals: Spain,Semifinals: Belgium
+Quarterfinals: Belgium,Semifinals: Belgium
+Quarterfinals: Brazil,Semifinals: France
+Quarterfinals: France,Semifinals: France
+Quarterfinals: West Germany,Semifinals: West Germany
+Quarterfinals: Mexico,Semifinals: West Germany
+Round of 16: Uruguay,Quarterfinals: Argentina
+Round of 16: Argentina,Quarterfinals: Argentina
+Round of 16: England,Quarterfinals: England
+Round of 16: Paraguay,Quarterfinals: England
+Round of 16: Denmark,Quarterfinals: Spain
+Round of 16: Spain,Quarterfinals: Spain
+Round of 16: Soviet Union,Quarterfinals: Belgium
+Round of 16: Belgium,Quarterfinals: Belgium
+Round of 16: Brazil,Quarterfinals: Brazil
+Round of 16: Poland,Quarterfinals: Brazil
+Round of 16: Italy,Quarterfinals: France
+Round of 16: France,Quarterfinals: France
+Round of 16: Morocco,Quarterfinals: West Germany
+Round of 16: West Germany,Quarterfinals: West Germany
+Round of 16: Mexico,Quarterfinals: Mexico
+Round of 16: Bulgaria,Quarterfinals: Mexico

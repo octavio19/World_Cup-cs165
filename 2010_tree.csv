@@ -1,0 +1,32 @@
+name,parent
+Spain,null
+Finals: Netherlands,Spain
+Finals: Spain,Spain
+Semifinals: Germany,Finals: Spain
+Semifinals: Spain,Finals: Spain
+Semifinals: Netherlands,Finals: Netherlands
+Semifinals: Uruguay,Finals: Netherlands
+Quarterfinals: Uruguay,Semifinals: Uruguay
+Quarterfinals: Ghana,Semifinals: Uruguay
+Quarterfinals: Netherlands,Semifinals: Netherlands
+Quarterfinals: Brazil,Semifinals: Netherlands
+Quarterfinals: Germany,Semifinals: Germany
+Quarterfinals: Argentina,Semifinals: Germany
+Quarterfinals: Paraguay,Semifinals: Spain
+Quarterfinals: Spain,Semifinals: Spain
+Round of 16: Uruaguay,Quarterfinals: Uruaguay
+Round of 16: South Korea,Quarterfinals: Uruguay
+Round of 16: United States,Quarterfinals: Ghana
+Round of 16: Ghana,Quarterfinals: Ghana
+Round of 16: Netherlands,Quarterfinals: Netherlands
+Round of 16: Slovakia,Quarterfinals: Netherlands
+Round of 16: Brazil,Quarterfinals: Brazil
+Round of 16: Chile,Quarterfinals: Brazil
+Round of 16: Argentina,Quarterfinals: Argentina
+Round of 16: Mexico,Quarterfinals: Argentina
+Round of 16: Germany,Quarterfinals: Germany
+Round of 16: England,Quarterfinals: Germany
+Round of 16: Paraguay,Quarterfinals: Paraguay
+Round of 16: Japan,Quarterfinals: Paraguay
+Round of 16: Spain,Quarterfinals: Spain
+Round of 16: Portugal,Quarterfinals: Spain

@@ -1,0 +1,32 @@
+name,parent
+France,null
+Finals: Brazil,France
+Finals: France,France
+Semifinals: Brazil,Finals: Brazil
+Semifinals: Netherlands,Finals: Brazil
+Semifinals: France,Finals: France
+Semifinals: Croatia,Finals: France
+Quarterfinals: Brazil,Semifinals: Brazil
+Quarterfinals: Denmark,Semifinals: Brazil
+Quarterfinals: Netherlands,Semifinals: Netherlands
+Quarterfinals: Argentina,Semifinals: Netherlands
+Quarterfinals: Italy,Semifinals: France
+Quarterfinals: France,Semifinals: France
+Quarterfinals: Germany,Semifinals: Croatia
+Quarterfinals: Croatia,Semifinals: Croatia
+Round of 16: Brazil,Quarterfinals: Brazil
+Round of 16: Chile,Quarterfinals: Brazil
+Round of 16: Nigeria,Quarterfinals: Denmark
+Round of 16: Denmark,Quarterfinals: Denmark
+Round of 16: Netherlands,Quarterfinals: Netherlands
+Round of 16: Yugoslavia,Quarterfinals: Netherlands
+Round of 16: Argentina,Quarterfinals: Argentina
+Round of 16: England,Quarterfinals: Argentina
+Round of 16: Italy,Quarterfinals: Italy
+Round of 16: Norway,Quarterfinals: Italy
+Round of 16: France,Quarterfinals: France
+Round of 16: Paraguay,Quarterfinals: France
+Round of 16: Germany,Quarterfinals: Germany
+Round of 16: Mexico,Quarterfinals: Germany
+Round of 16: Romania,Quarterfinals: Croatia
+Round of 16: Croatia,Quarterfinals: Croatia
