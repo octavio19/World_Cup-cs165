@@ -1,16 +1,6 @@
 var margin = {top: 30, right: 20, bottom: 30, left: 100},
     width = 1000 - margin.left - margin.right,
-<<<<<<< HEAD
-<<<<<<< HEAD
-    height = 820 - margin.top - margin.bottom;
-=======
-   // height = 500 - margin.top - margin.bottom;
-    height = 950;
->>>>>>> c51647bea734db2adcc23209ddc16dff872ed42f
-=======
-   // height = 500 - margin.top - margin.bottom;
-    height = 950;
->>>>>>> c51647bea734db2adcc23209ddc16dff872ed42f
+    height = 810 - margin.top - margin.bottom;
 
 var canvas = d3.select("#area1")
     .append("svg")
@@ -33,15 +23,7 @@ d3.csv("Champions.csv", function(data){
         return d.Champion;
       }
     }, {
-      head : '',
-      cl: 'flag',
-      html: function(d){
-        var returner = d.Champion + ".jpg";
-        console.log(returner);
-        return "<img src=" + returner + ">";
-      }
-    }, {
-      head : 'Golden Ball',
+      head : 'Golden Ball Winner',
       cl: 'best player',
       html: function(d){
         var returner = d.GoldenBall + ".jpg";
@@ -50,7 +32,7 @@ d3.csv("Champions.csv", function(data){
       }
     },
     {
-        head: 'Golden Boot',
+        head: 'Golden Boot Winner',
         cl: 'goal',
         html: function(d){
             var returner = d.GoldenBoot + ".jpg";
@@ -424,10 +406,7 @@ data.forEach(function(node) {
     
     
 }  
-
-$('#subDiv1').click(function() {
-   $.scrollTo($('#tree1'), 1000);
-});
+    
 //1986
     
 function updateData1986() {
@@ -461,4 +440,4 @@ data.forEach(function(node) {
 });
     
     
-} 
+}               

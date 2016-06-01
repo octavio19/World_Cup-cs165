@@ -24,7 +24,7 @@ table {table-layout:fixed}
         
           
     #subDiv1 input {
-    background:url(/logos/2014.png) no-repeat;
+    background:url(/2014.png) no-repeat;
     cursor:pointer;
     width: 100px;
     height: 100px;
@@ -34,7 +34,7 @@ table {table-layout:fixed}
     float: left;    
 }      
     #subDiv2 input{
-    background:url(/logos/2010.png) no-repeat;
+    background:url(/2010.png) no-repeat;
     cursor:pointer;
     width: 100px;
     height: 100px;
@@ -42,7 +42,7 @@ table {table-layout:fixed}
     float: left;    
 }         
 #subDiv3 input {
-    background:url(/logos/2006.png) no-repeat;
+    background:url(/2006.png) no-repeat;
     cursor:pointer;
     width: 100px;
     height: 100px;
@@ -51,7 +51,7 @@ table {table-layout:fixed}
 } 
           
 #subDiv4 input {
-    background:url(/logos/2002.png) no-repeat;
+    background:url(/2002.png) no-repeat;
     cursor:pointer;
     width: 100px;
     height: 100px;
@@ -60,7 +60,7 @@ table {table-layout:fixed}
 }   
           
 #subDiv5 input {
-    background:url(/logos/1998.png) no-repeat;
+    background:url(/1998.png) no-repeat;
     cursor:pointer;
     width: 100px;
     height: 100px;
@@ -69,7 +69,7 @@ table {table-layout:fixed}
 }          
 
 #subDiv6 input {
-    background:url(/logos/1994.png) no-repeat;
+    background:url(/1994.png) no-repeat;
     cursor:pointer;
     width: 100px;
     height: 100px;
@@ -79,7 +79,7 @@ table {table-layout:fixed}
           
           
 #subDiv7 input {
-    background:url(/logos/1990.png) no-repeat;
+    background:url(/1990.png) no-repeat;
     cursor:pointer;
     width: 100px;
     height: 100px;
@@ -88,7 +88,7 @@ table {table-layout:fixed}
 } 
           
 #subDiv8 input {
-    background:url(/logos/1986.png) no-repeat;
+    background:url(/1986.png) no-repeat;
     cursor:pointer;
     width: 100px;
     height: 100px;
