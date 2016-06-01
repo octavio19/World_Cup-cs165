@@ -1,7 +1,12 @@
 var margin = {top: 30, right: 20, bottom: 30, left: 100},
     width = 1000 - margin.left - margin.right,
 <<<<<<< HEAD
+<<<<<<< HEAD
     height = 820 - margin.top - margin.bottom;
+=======
+   // height = 500 - margin.top - margin.bottom;
+    height = 950;
+>>>>>>> c51647bea734db2adcc23209ddc16dff872ed42f
 =======
    // height = 500 - margin.top - margin.bottom;
     height = 950;
