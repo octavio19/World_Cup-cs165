@@ -7,3 +7,109 @@ td, th {
 }
 
 table {table-layout:fixed}
+
+
+#navBar {
+    width: 85%;
+    height: px;
+    margin-left: 3%;
+    margin-right: auto;
+    margin-top: 2%;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #008040;
+    overflow: hidden;
+} 
+        
+          
+    #subDiv1 input {
+    background:url(/logos/2014.png) no-repeat;
+    cursor:pointer;
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    float: left;    
+}      
+    #subDiv2 input{
+    background:url(/logos/2010.png) no-repeat;
+    cursor:pointer;
+    width: 100px;
+    height: 100px;
+    border: none;
+    float: left;    
+}         
+#subDiv3 input {
+    background:url(/logos/2006.png) no-repeat;
+    cursor:pointer;
+    width: 100px;
+    height: 100px;
+    border: none;
+    float: left;
+} 
+          
+#subDiv4 input {
+    background:url(/logos/2002.png) no-repeat;
+    cursor:pointer;
+    width: 100px;
+    height: 100px;
+    border: none;
+    float: left;
+}   
+          
+#subDiv5 input {
+    background:url(/logos/1998.png) no-repeat;
+    cursor:pointer;
+    width: 100px;
+    height: 100px;
+    border: none;
+    float: left;
+}          
+
+#subDiv6 input {
+    background:url(/logos/1994.png) no-repeat;
+    cursor:pointer;
+    width: 100px;
+    height: 100px;
+    border: none;
+    float: left;
+}  
+          
+          
+#subDiv7 input {
+    background:url(/logos/1990.png) no-repeat;
+    cursor:pointer;
+    width: 100px;
+    height: 100px;
+    border: none;
+    float: left;
+} 
+          
+#subDiv8 input {
+    background:url(/logos/1986.png) no-repeat;
+    cursor:pointer;
+    width: 100px;
+    height: 100px;
+    border: none;
+}  
+
+    .node circle {
+	  fill: #fff;
+	  stroke: steelblue;
+	  stroke-width: 3px;
+	}
+          
+    .node text { font: 12px sans-serif; }
+
+	.link {
+	  fill: none;
+	  stroke: #ccc;
+	  stroke-width: 2px;
+	}
+	
+        h1{
+            text-align: center
+        }  
+        
