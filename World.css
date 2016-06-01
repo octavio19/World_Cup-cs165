@@ -195,6 +195,14 @@ table {table-layout:fixed}
     border: none;
     float: left;
 } 
+#subDiv20 input {
+    background:url(/1930.png) no-repeat;
+    cursor:pointer;
+    width: 100px;
+    height: 100px;
+    border: none;
+    float: left;
+} 
 
     .node circle {
 	  fill: #fff;
