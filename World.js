@@ -166,7 +166,7 @@ function update(source) {
   // Normalize for fixed-depth.
   nodes.forEach(function(d) { d.y = d.depth * 180; });
 
-  // Declare the nodesâ€¦
+  // Declare the nodes
   var node = svg.selectAll("g.node")
 	  .data(nodes, function(d) { return d.id || (d.id = ++i); });
 
@@ -189,7 +189,7 @@ function update(source) {
 	  .text(function(d) { return d.name; })
 	  .style("fill-opacity", 1);
 
-  // Declare the linksâ€¦
+  // Declare the links
   var link = svg.selectAll("path.link")
 	  .data(links, function(d) { return d.target.id; });
 
