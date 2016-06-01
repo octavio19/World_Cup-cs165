@@ -12,12 +12,12 @@ table {table-layout:fixed}
 #navBar {
     width: 85%;
     height: px;
-    margin-left: 3%;
+    margin-left: 5%;
     margin-right: auto;
     margin-top: 2%;
-    border-width: 1px;
+    border-width: 5px;
     border-style: solid;
-    border-radius: 10px;
+    border-radius: 20px;
     border-color: #008040;
     overflow: hidden;
 } 
@@ -93,7 +93,108 @@ table {table-layout:fixed}
     width: 100px;
     height: 100px;
     border: none;
-}  
+    float: left;
+} 
+
+#subDiv9 input {
+    background:url(/1982.png) no-repeat;
+    cursor:pointer;
+    width: 100px;
+    height: 100px;
+    border: none;
+    float: left;
+} 
+
+#subDiv10 input {
+    background:url(/1978.png) no-repeat;
+    cursor:pointer;
+    width: 100px;
+    height: 100px;
+    border: none;
+    float: left;
+} 
+
+#subDiv11 input {
+    background:url(/1974.png) no-repeat;
+    cursor:pointer;
+    width: 100px;
+    height: 100px;
+    border: none;
+    float: left;
+}
+
+#subDiv12 input {
+    background:url(/1970.png) no-repeat;
+    cursor:pointer;
+    width: 100px;
+    height: 100px;
+    border: none;
+    float: left;
+} 
+
+#subDiv13 input {
+    background:url(/1966.png) no-repeat;
+    cursor:pointer;
+    width: 100px;
+    height: 100px;
+    border: none;
+    float: left;
+} 
+
+#subDiv14 input {
+    background:url(/1962.png) no-repeat;
+    cursor:pointer;
+    width: 100px;
+    height: 100px;
+    border: none;
+    float: left;
+}
+
+#subDiv15 input {
+    background:url(/1958.png) no-repeat;
+    cursor:pointer;
+    width: 100px;
+    height: 100px;
+    border: none;
+    float: left;
+} 
+
+#subDiv16 input {
+    background:url(/1954.png) no-repeat;
+    cursor:pointer;
+    width: 100px;
+    height: 100px;
+    border: none;
+    float: left;
+} 
+
+#subDiv17 input {
+    background:url(/1950.png) no-repeat;
+    cursor:pointer;
+    width: 100px;
+    height: 100px;
+    border: none;
+    float: left;
+} 
+
+
+#subDiv18 input {
+    background:url(/1938.png) no-repeat;
+    cursor:pointer;
+    width: 100px;
+    height: 100px;
+    border: none;
+    float: left;
+}
+
+#subDiv19 input {
+    background:url(/1934.png) no-repeat;
+    cursor:pointer;
+    width: 100px;
+    height: 100px;
+    border: none;
+    float: left;
+} 
 
     .node circle {
 	  fill: #fff;
