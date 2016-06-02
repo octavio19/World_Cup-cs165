@@ -27,6 +27,7 @@ d3.csv("Champions.csv", function(data){
       cl: 'crests',
       html: function(d){
         var returner = d.Champion + ".jpg";
+        returner = returner.toLowerCase();
         console.log(returner);
         return "<img src=" + returner + ">";
       }
