@@ -188,7 +188,7 @@ table {table-layout:fixed}
 }
 
 #subDiv19 input {
-    background:url(/1934.png) no-repeat;
+    background:url(./1934.png) no-repeat;
     cursor:pointer;
     width: 100px;
     height: 100px;
@@ -211,7 +211,7 @@ table {table-layout:fixed}
 	}
           
     .node text { font: 12px sans-serif; }
-
+    path .link {width: 90px;}
 	.link {
 	  fill: none;
 	  stroke: #ccc;
