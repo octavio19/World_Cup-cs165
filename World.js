@@ -17,6 +17,13 @@ d3.csv("Champions.csv", function(data){
         return d.Year;
       }
     }, {
+      head: '',
+      cl: 'logo',
+      html: function(d) {
+        var returner = d.Year + ".png"
+        return "<img src=" + returner + ">";
+      }
+    }, {
       head: 'Champion',
       cl: 'champs',
       html: function(d) {
@@ -176,11 +183,21 @@ function update(source) {
 	  .attr("class", "node")
 	  .attr("transform", function(d) { 
 		  return "translate(" + d.y + "," + d.x + ")"; });
-
+/*
   nodeEnter.append("circle")
 	  .attr("r", 10)
 	  .style("fill", "#fff");
+   */   
+    
+ nodeEnter.append("g")
+          .append("svg:image")
+          .attr("xlink:href","http://www.clker.com/cliparts/1/4/5/a/1331068897296558865Sitting%20Racoon.svg")
+        .attr("width", 30)
+    .attr("height", 30)
 
+
+    
+    
   nodeEnter.append("text")
 	  .attr("x", function(d) { 
 		  return d.children || d._children ? -13 : 13; })
