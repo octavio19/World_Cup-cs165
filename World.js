@@ -12,15 +12,15 @@ d3.csv("Champions.csv", function(data){
       head: '',
       cl: 'logos',
       html: function(d){
-          var returner = d.Year + ".png";
-          return"<img src= " + returner + ">";
+        var func = "updateData" + d.Year + "()";  
+        var returner = d.Year + ".png";
+        return "<a onclick = " + func + ">" + "<img src = " + returner + ">" + "</a>";
       },
       head: 'Year',
       cl: 'year',
       html: function(d) {
-        var func = "updateData" + d.Year + "()";  
-        var returner = d.Year + ".png";
-        return "<a onclick = " + func + ">" + "<img src = " + returner + ">" + "</a>"; //<onclick="whatever d.Year">
+ //<onclick="whatever d.Year">
+          return d.Year;
       }
     }, {
       head: '',
@@ -140,7 +140,7 @@ var svg = d3.select("#area1").append("svg")
 // Updates data dynmaically to 2014 tournament    
 function updateData2014() {
     
-d3.csv("2014_Tree.csv", function(error, data) {
+d3.csv("2014_tree.csv", function(error, data) {
 svg.selectAll("*").remove(); 
 // *********** Convert flat data into a nice tree ***************
 // create a name: node map
@@ -225,7 +225,7 @@ function update(source) {
 // 2010 tourny
     
 function updateData2010() {
-d3.csv("2010_Tree.csv", function(error, data) {
+d3.csv("2010_tree.csv", function(error, data) {
 svg.selectAll("*").remove();
 // *********** Convert flat data into a nice tree ***************
 // create a name: node map
@@ -260,7 +260,7 @@ data.forEach(function(node) {
 //2006
     
 function updateData2006() {
-d3.csv("2006_Tree.csv", function(error, data) {
+d3.csv("2006_tree.csv", function(error, data) {
 svg.selectAll("*").remove();
 // *********** Convert flat data into a nice tree ***************
 // create a name: node map
@@ -298,7 +298,7 @@ data.forEach(function(node) {
 //2006
     
 function updateData2002() {
-d3.csv("2002_Tree.csv", function(error, data) {
+d3.csv("2002_tree.csv", function(error, data) {
 svg.selectAll("*").remove();
 // *********** Convert flat data into a nice tree ***************
 // create a name: node map
@@ -333,7 +333,7 @@ data.forEach(function(node) {
 //1998 touney
     
 function updateData1998() {
-d3.csv("1998_Tree.csv", function(error, data) {
+d3.csv("1998_tree.csv", function(error, data) {
 svg.selectAll("*").remove();
 // *********** Convert flat data into a nice tree ***************
 // create a name: node map
@@ -368,7 +368,7 @@ data.forEach(function(node) {
 //1994
 
 function updateData1994() {
-d3.csv("1994_Tree.csv", function(error, data) {
+d3.csv("1994_tree.csv", function(error, data) {
 svg.selectAll("*").remove();
 // *********** Convert flat data into a nice tree ***************
 // create a name: node map
@@ -403,7 +403,7 @@ data.forEach(function(node) {
 //1990
     
 function updateData1990() {
-d3.csv("1990_Tree.csv", function(error, data) {
+d3.csv("1990_tree.csv", function(error, data) {
 svg.selectAll("*").remove();
 // *********** Convert flat data into a nice tree ***************
 // create a name: node map
@@ -438,7 +438,7 @@ data.forEach(function(node) {
 //1986
     
 function updateData1986() {
-d3.csv("1986_Tree.csv", function(error, data) {
+d3.csv("1986_tree.csv", function(error, data) {
 svg.selectAll("*").remove();
 // *********** Convert flat data into a nice tree ***************
 // create a name: node map
