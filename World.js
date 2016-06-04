@@ -1,20 +1,26 @@
 var margin = {top: 30, right: 20, bottom: 30, left: 100},
-    width = 1000 - margin.left - margin.right,
+    width = 550 - margin.left - margin.right,
     height = 950;
 
 var canvas = d3.select("#area1")
     .append("svg")
         .attr("width", width + margin.left + margin.right)
         .attr("height", height + margin.top + margin.bottom)
-    .append("g")
-        .attr("transform", 
-              "translate(" + margin.left + "," + margin.top + ")");
+    .append("g");
 d3.csv("Champions.csv", function(data){
     data.columns = [{
+      head: '',
+      cl: 'logos',
+      html: function(d){
+          var returner = d.Year + ".png";
+          return"<img src= " + returner + ">";
+      },
       head: 'Year',
       cl: 'year',
       html: function(d) {
-        return d.Year;
+        var func = "updateData" + d.Year + "()";  
+        var returner = d.Year + ".png";
+        return "<a onclick = " + func + ">" + "<img src = " + returner + ">" + "</a>"; //<onclick="whatever d.Year">
       }
     }, {
       head: 'Champion',
@@ -101,11 +107,6 @@ d3.csv("Champions.csv", function(data){
         return d.cl;
       });
 });
-
-
-    
-
-
     
     
 // Make tree layout    
@@ -113,16 +114,19 @@ d3.csv("Champions.csv", function(data){
 var i = 0;
 
 var tree = d3.layout.tree()
-	.size([height, width]);
-
+	.size([height/2, width])
+    .separation(function(a, b) { return (a.parent == b.parent ? 1 : 2); })
+;
 var diagonal = d3.svg.diagonal()
 	.projection(function(d) { return [d.y, d.x]; });
 
-var svg = d3.select("#tree1").append("svg")
-	.attr("width", width + margin.right + margin.left)
+var svg = d3.select("#area1").append("svg")
+	.attr("width", 600)
 	.attr("height", height + margin.top + margin.bottom)
-  .append("g")
-	.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+    .append("g")
+	.attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+    .attr("width", width)
+    .attr("height", height);
 
 
 
@@ -158,14 +162,12 @@ data.forEach(function(node) {
   update(root);
 });
 }
+var node_distance = 90;
 function update(source) {
-
   // Compute the new tree layout.
   var nodes = tree.nodes(root).reverse(),
 	  links = tree.links(nodes);
-
-  // Normalize for fixed-depth.
-  nodes.forEach(function(d) { d.y = d.depth * 180; });
+  nodes.forEach(function(d) { d.y = d.depth * node_distance; });
 
   // Declare the nodes
   var node = svg.selectAll("g.node")
