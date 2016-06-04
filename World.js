@@ -9,13 +9,6 @@ var canvas = d3.select("#area1")
     .append("g");
 d3.csv("Champions.csv", function(data){
     data.columns = [{
-      head: '',
-      cl: 'logos',
-      html: function(d){
-        var func = "updateData" + d.Year + "()";  
-        var returner = d.Year + ".png";
-        return "<a onclick = " + func + ">" + "<img src = " + returner + ">" + "</a>";
-      },
       head: 'Year',
       cl: 'year',
       html: function(d) {
@@ -26,8 +19,9 @@ d3.csv("Champions.csv", function(data){
       head: '',
       cl: 'logo',
       html: function(d) {
-        var returner = d.Year + ".png"
-        return "<img src=" + returner + ">";
+        var func = "updateData" + d.Year + "()";  
+        var returner = d.Year + ".png";
+        return "<a onclick = " + func + ">" + "<img src = " + returner + ">" + "</a>";
       }
     }, {
       head: 'Champion',
