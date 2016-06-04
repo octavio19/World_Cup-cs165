@@ -163,6 +163,16 @@ data.forEach(function(node) {
   update(root);
 });
 }
+
+
+
+d3.csv("2014_general.csv", function(d) {
+  data.forEach(function(d) {
+    d.Wins = +d.Wins;
+  });
+  console.log(data[0]);
+});
+
 var node_distance = 90;
 function update(source) {
   // Compute the new tree layout.
@@ -178,19 +188,36 @@ function update(source) {
   var nodeEnter = node.enter().append("g")
 	  .attr("class", "node")
 	  .attr("transform", function(d) { 
-		  return "translate(" + d.y + "," + d.x + ")"; });
-/*
+		  return "translate(" + d.y + "," + d.x + ")"; })
+  // add tooltip
+  .on("mouseover", function(d) {
+        div.transition()
+          .duration(200)
+          .style("opacity", .9);
+        div.html(
+            "" + d.name,
+            "" + d.Wins 
+            )
+          .style("left", (d3.event.pageX) + "px")
+          .style("top", (d3.event.pageY - 28) + "px");
+        })
+      .on("mouseout", function(d) {
+        div.transition()
+          .duration(500)
+          .style("opacity", 0);
+        });
+
   nodeEnter.append("circle")
 	  .attr("r", 10)
 	  .style("fill", "#fff");
-   */   
-    
+   
+/*    
  nodeEnter.append("g")
           .append("svg:image")
           .attr("xlink:href","http://www.clker.com/cliparts/1/4/5/a/1331068897296558865Sitting%20Racoon.svg")
         .attr("width", 30)
     .attr("height", 30)
-
+*/
 
     
     
@@ -201,8 +228,14 @@ function update(source) {
 	  .attr("text-anchor", function(d) { 
 		  return d.children || d._children ? "end" : "start"; })
 	  .text(function(d) { return d.name; })
-	  .style("fill-opacity", 1);
+  	  .style("fill-opacity", 1);
 
+// add the tool tip
+  var div = d3.select("#area1").append("div")
+    .attr("class", "tooltip")
+    .style("opacity", 0);    
+   
+    
   // Declare the links
   var link = svg.selectAll("path.link")
 	  .data(links, function(d) { return d.target.id; });
