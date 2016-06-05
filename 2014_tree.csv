@@ -1,32 +1,32 @@
 name,parent
-Germany,null
-Finals: Germany,Germany
-Finals: Argentina,Germany
-Semifinals: Brazil,Finals: Germany
-Semifinals: Germany,Finals: Germany
-Semifinals: Netherlands,Finals: Argentina
-Semifinals: Argentina,Finals: Argentina
-Quarterfinals: Brazil,Semifinals: Brazil
-Quarterfinals: Columbia,Semifinals: Brazil
-Quarterfinals: France,Semifinals: Germany
-Quarterfinals: Germany,Semifinals: Germany
-Quarterfinals: Netherlands,Semifinals: Netherlands
-Quarterfinals: Costa Rica,Semifinals: Netherlands
-Quarterfinals: Argentina,Semifinals: Argentina
-Quarterfinals: Belgium,Semifinals: Argentina
-Round of 16: Brazil,Quarterfinals: Brazil
-Round of 16: Chile,Quarterfinals: Brazil
-Round of 16: Columbia,Quarterfinals: Columbia
-Round of 16: Uruguay,Quarterfinals: Columbia
-Round of 16: Costa Rica,Quarterfinals: Costa Rica
-Round of 16: Greece,Quarterfinals: Costa Rica
-Round of 16: Switzerland,Quarterfinals: Argentina
-Round of 16: Belgium,Quarterfinals: Belgium
-Round of 16: Algeria,Quarterfinals: Germany
-Round of 16: Germany,Quarterfinals: Germany
-Round of 16: France,Quarterfinals: France
-Round of 16: Nigeria,Quarterfinals: France
-Round of 16: Netherlands,Quarterfinals: Netherlands
-Round of 16: Mexico,Quarterfinals: Netherlands
-Round of 16: Switzerland,Quarterfinals: Argentina
-Round of 16: United States,Quarterfinals: Belgium
+wGermany,null
+fGermany,wGermany
+fArgentina,aGermany
+sBrazil,fGermany
+sGermany,fGermany
+sNetherlands,fArgentina
+sArgentina,fArgentina
+qBrazil,sBrazil
+qColumbia,sBrazil
+qFrance,sGermany
+qGermany,sGermany
+qNetherlands,sNetherlands
+qCosta Rica,sNetherlands
+qArgentina,sArgentina
+qBelgium,sArgentina
+rBrazil,qBrazil
+rChile,qBrazil
+rColumbia,qColumbia
+rUruguay,qColumbia
+rCosta Rica,qCosta Rica
+rGreece,qCosta Rica
+rSwitzerland,qArgentina
+rBelgium,qBelgium
+rAlgeria,qGermany
+rGermany,qGermany
+rFrance,qFrance
+rNigeria,qFrance
+rNetherlands,qNetherlands
+rMexico,qNetherlands
+rSwitzerland,qArgentina
+rUnited States,qBelgium

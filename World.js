@@ -182,7 +182,7 @@ function update(source) {
 
   // Declare the nodes
   var node = svg.selectAll("g.node")
-	  .data(nodes, function(d) { return d.id || (d.id = ++i); });
+	  .data(nodes, function(d) {return d.id || (d.id = ++i); });
 
   // Enter the nodes.
   var nodeEnter = node.enter().append("g")
@@ -228,7 +228,7 @@ function update(source) {
 	  .attr("dy", ".35em")
 	  .attr("text-anchor", function(d) { 
 		  return d.children || d._children ? "end" : "start"; })
-	  .text(function(d) { return d.name; })
+	  .text(function(d) { return d.name.substring(1); })
   	  .style("fill-opacity", 1);
 
 // add the tool tip
