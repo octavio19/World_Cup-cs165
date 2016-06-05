@@ -196,7 +196,7 @@ function update(source) {
           .duration(200)
           .style("opacity", .9);
         div.html(
-            "" + d.name,
+            "" + d.name.substring(1),
             "" + d.Wins 
             )
           .style("left", (d3.event.pageX) + "px")
