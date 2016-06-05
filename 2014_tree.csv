@@ -1,32 +1,32 @@
-name,parent
-wGermany,null
-fGermany,wGermany
-fArgentina,aGermany
-sBrazil,fGermany
-sGermany,fGermany
-sNetherlands,fArgentina
-sArgentina,fArgentina
-qBrazil,sBrazil
-qColumbia,sBrazil
-qFrance,sGermany
-qGermany,sGermany
-qNetherlands,sNetherlands
-qCosta Rica,sNetherlands
-qArgentina,sArgentina
-qBelgium,sArgentina
-rBrazil,qBrazil
-rChile,qBrazil
-rColumbia,qColumbia
-rUruguay,qColumbia
-rCosta Rica,qCosta Rica
-rGreece,qCosta Rica
-rSwitzerland,qArgentina
-rBelgium,qBelgium
-rAlgeria,qGermany
-rGermany,qGermany
-rFrance,qFrance
+name,parent,Wins
+wGermany,null,6
+fGermany,wGermany,6
+fArgentina,wGermany,5
+sBrazil,fGermany,4
+sGermany,fGermany,6
+sNetherlands,fArgentina,4
+sArgentina,fArgentina,5
+qBrazil,sBrazil,4
+qColumbia,sBrazil,3
+qFrance,sGermany,2
+qGermany,sGermany,2
+qNetherlands,sNetherlands,2
+qCosta Rica,sNetherlands,2
+qArgentina,sArgentina,2
+qBelgium,sArgentina,2
+rBrazil,qBrazil,2
+rChile,qBrazil,2
+rColumbia,qColumbia,2
+rUruguay,qColumbia,2
+rCosta Rica,qCosta Rica,2
+rGreece,qCosta Rica,2
+rSwitzerland,qArgentina,2
+rBelgium,qBelgium,2
+rAlgeria,qGermany,2
+rGermany,qGermany,2
+rFrance,qFrance,2
 rNigeria,qFrance
-rNetherlands,qNetherlands
-rMexico,qNetherlands
-rSwitzerland,qArgentina
-rUnited States,qBelgium
+rNetherlands,qNetherlands,2
+rMexico,qNetherlands,2
+rSwitzerland,qArgentina,2
+rUnited States,qBelgium,2

@@ -140,6 +140,7 @@ svg.selectAll("*").remove();
 // create a name: node map
 var dataMap = data.reduce(function(map, node) {
 	map[node.name] = node;
+    
 	return map;
 }, {});
 
@@ -166,12 +167,6 @@ data.forEach(function(node) {
 
 
 
-d3.csv("2014_general.csv", function(d) {
-  data.forEach(function(d) {
-    d.Wins = +d.Wins;
-  });
-  console.log(data[0]);
-});
 
 var node_distance = 90;
 function update(source) {
@@ -195,9 +190,9 @@ function update(source) {
         div.transition()
           .duration(200)
           .style("opacity", .9);
-        div.html(
-            "" + d.name.substring(1),
-            "" + d.Wins 
+        div .html(
+            "" + d.name.substring(1) + "<br/>" +
+            "Total Wins:" + d.Wins 
             )
           .style("left", (d3.event.pageX) + "px")
           .style("top", (d3.event.pageY - 28) + "px");
