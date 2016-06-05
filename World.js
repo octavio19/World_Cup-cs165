@@ -191,6 +191,7 @@ function update(source) {
 		  return "translate(" + d.y + "," + d.x + ")"; })
   // add tooltip
   .on("mouseover", function(d) {
+        console.log(d);
         div.transition()
           .duration(200)
           .style("opacity", .9);
