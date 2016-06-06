@@ -192,7 +192,11 @@ function update(source) {
           .style("opacity", .9);
         div .html(
             "" + d.name.substring(1) + "<br/>" +
-            "Total Wins:" + d.Wins 
+            "Finish: " + d.finish + "<br/>" +
+            "Wins: " + d.wins + "<br/>" +
+            "Losses:" + d.losses + "<br/>" +
+            "Goals: " + d.goalsfor + "<br/>" +
+            "Goals allowed: " + d.goalsagainst
             )
           .style("left", (d3.event.pageX) + "px")
           .style("top", (d3.event.pageY - 28) + "px");
