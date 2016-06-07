@@ -1,32 +1,32 @@
-name,parent,finish,wins,ties,losses,goalsfor,goalsagainst
-wGermany,null,Champion,6,1,0,18,4
-fGermany,wGermany,Champion,6,1,0,18,4
-fArgentina,wGermany,Runners-up,6,0,1,8,4
-sBrazil,fGermany,Semi-finals,4,0,3,11,14
-sGermany,fGermany,Champion,6,1,0,18,4
-sNetherlands,fArgentina,Semi-finals,6,0,1,15,4
-sArgentina,fArgentina,Runners-up,6,0,1,8,4
-qBrazil,sBrazil,Semi-finals,4,0,3,11,14
-qColumbia,sBrazil,Quarter-finals,4,0,1,12,4
+name,parent,finish,wins,ties,losses,goalsfor,goalsagainst,crest
+wGermany,null,Champion,6,1,0,18,4,germany_west.jpg
+fGermany,wGermany,Champion,6,1,0,18,4,germany_west.jpg
+fArgentina,wGermany,Runners-up,6,0,1,8,4,argentina.jpg
+sBrazil,fGermany,Semi-finals,4,0,3,11,14,brazil.jpg
+sGermany,fGermany,Champion,6,1,0,18,4,germany_west.jpg
+sNetherlands,fArgentina,Semi-finals,6,0,1,15,4,netherlands.jpg
+sArgentina,fArgentina,Runners-up,6,0,1,8,4,argentina.jpg
+qBrazil,sBrazil,Semi-finals,4,0,3,11,14,brazil.jpg
+qColumbia,sBrazil,Quarter-finals,4,0,1,12,4,colombia.jpg
 qFrance,sGermany,Quarter-finals,3,1,1,10,3
-qGermany,sGermany,Champion,6,1,0,18,4
-qNetherlands,sNetherlands,Semi-finals,6,0,1,15,4
+qGermany,sGermany,Champion,6,1,0,18,4,germany_west.jpg
+qNetherlands,sNetherlands,Semi-finals,6,0,1,15,4,netherlands.jpg
 qCosta Rica,sNetherlands,Quarter-finals,3,1,1,5,2
-qArgentina,sArgentina,Runners-up,6,0,1,8,4
+qArgentina,sArgentina,Runners-up,6,0,1,8,4,argentina.jpg
 qBelgium,sArgentina,Quarterfinals,4,0,1,6,3
-rBrazil,qBrazil,Semi-finals,4,0,3,11,14
-rChile,qBrazil,Last 16,2,0,2,6,4
-rColumbia,qColumbia,Quarter-finals,4,0,1,12,4
-rUruguay,qColumbia,Uruguay,Last 16,2,0,2,4,4
-rCosta Rica,qCosta Rica,Quarter-finals,3,1,1,5,2
-rGreece,qCosta Rica,Last 16,1,1,2,3,5
-rArgentina,qArgentina,Runners-up,6,0,1,8,4
-rBelgium,qBelgium,Quarter finals,4,0,1,6,3
-rAlgeria,qGermany,Last 16,1,1,2,7,7
-rGermany,qGermany,Champion,6,1,0,18,4
-rFrance,qFrance,Quarter-finals,3,1,1,10,3
-rNigeria,qFrance,Last 16,1,1,2,3,5
-rNetherlands,qNetherlands,Semi-finals,6,0,1,15,4
-rMexico,qNetherlands,Last 16,2,1,1,5,3
-rSwitzerland,qArgentina,Last 16,2,0,2,7,6
+rBrazil,qBrazil,Semi-finals,4,0,3,11,14,brazil.jpg
+rChile,qBrazil,Last 16,2,0,2,6,4,chile.jpg
+rColumbia,qColumbia,Quarter-finals,4,0,1,12,4,colombia.jpg
+rUruguay,qColumbia,Uruguay,Last 16,2,0,2,4,4,uruguay.jpg
+rCosta Rica,qCosta Rica,Quarter-finals,3,1,1,5,2,costa_rica.jpg
+rGreece,qCosta Rica,Last 16,1,1,2,3,5,greece.jpg
+rArgentina,qArgentina,Runners-up,6,0,1,8,4,argentina.jpg
+rBelgium,qBelgium,Quarter finals,4,0,1,6,3,belgium.jpg
+rAlgeria,qGermany,Last 16,1,1,2,7,7,algeria.jpg
+rGermany,qGermany,Champion,6,1,0,18,4,germany_west.jpg
+rFrance,qFrance,Quarter-finals,3,1,1,10,3,france.jpg
+rNigeria,qFrance,Last 16,1,1,2,3,5,nigeria.jpg
+rNetherlands,qNetherlands,Semi-finals,6,0,1,15,4,netherlands.jpg
+rMexico,qNetherlands,Last 16,2,1,1,5,3,mexico.jpg
+rSwitzerland,qArgentina,Last 16,2,0,2,7,6,switzerland.jpg
 rUnited States,qBelgium,Last 16,1,1,2,4,4

@@ -207,21 +207,21 @@ function update(source) {
           .duration(500)
           .style("opacity", 0);
         });
-   
+   /*
   nodeEnter.append("circle")
 	  .attr("r", 8)
 	  .style("fill", "#fff");
       
    
-  /*
+  */
  nodeEnter.append("g")
           .append("svg:image")
-          .attr("xlink:href","Brazil.jpg")
+          .attr("xlink:href", function(d) { return d.crest})
         .attr("width", 20)
         .attr("height", 20)
         .attr("x",-10)
         .attr("y",-10);
-*/
+
 
     
     
