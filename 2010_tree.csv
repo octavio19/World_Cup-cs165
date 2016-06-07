@@ -1,32 +1,32 @@
-name,parent,finish,wins,ties,losses,goalsfor,goalsagainst
-wSpain,null,Champion,6,0,1,8,2
-fSpain,wSpain,Champion,6,0,1,8,2
-fNetherlands,wSpain,Runners up,6,0,1,12,6
-sSpain,fSpain,Champion,6,0,1,8,2
-sNetherlands,fNetherlands,Runners up,6,0,1,12,6
-sUruguay,fNetherlands,Semi-Finalist,4,1,2,11,8
-sGermany,fSpain,Semi-finals,5,0,2,16,5
-qSpain,sSpain,Champion,6,0,1,8,2
-qNetherlands,sNetherlands,Runners up,6,0,1,12,6
+name,parent,finish,wins,ties,losses,goalsfor,goalsagainst,crest
+wSpain,null,Champion,6,0,1,8,2,spain.jpg
+fSpain,wSpain,Champion,6,0,1,8,2,spain.jpg
+fNetherlands,wSpain,Runners up,6,0,1,12,6,netherlands.jpg
+sSpain,fSpain,Champion,6,0,1,8,2,spain.jpg
+sNetherlands,fNetherlands,Runners up,6,0,1,12,6,netherlands.jpg
+sUruguay,fNetherlands,Semi-Finalist,4,1,2,11,8,uruguay.jpg
+sGermany,fSpain,Semi-finals,5,0,2,16,5,germany.jpg
+qSpain,sSpain,Champion,6,0,1,8,2,spain.jpg
+qNetherlands,sNetherlands,Runners up,6,0,1,12,6,netherlands.jpg
 qUruguay,sUruguay,Semi-Finalist,4,1,2,11,8
-qGermany,sGermany,Semi-finals,5,0,2,16,5
-qParaguay,sSpain,Quarter-finals,2,2,1,3,2
-qGhana,sUruguay,Quarter-finals,2,1,2,5,4
-qBrazil,sNetherlands,Quarter-finals,3,1,1,9,4
-qArgentina,sGermany,Quarter-finals,4,0,1,10,6
-rSpain,qSpain,Champion,6,0,1,8,2
-rNetherlands,qNetherlands,Runners up,6,0,1,12,6
+qGermany,sGermany,Semi-finals,5,0,2,16,5,germany.jpg
+qParaguay,sSpain,Quarter-finals,2,2,1,3,2,paraguay.jpg
+qGhana,sUruguay,Quarter-finals,2,1,2,5,4,ghana.jpg
+qBrazil,sNetherlands,Quarter-finals,3,1,1,9,4,brazil.jpg
+qArgentina,sGermany,Quarter-finals,4,0,1,10,6,argentina.jpg
+rSpain,qSpain,Champion,6,0,1,8,2,spain.jpg
+rNetherlands,qNetherlands,Runners up,6,0,1,12,6,netherlands.jpg
 rUruguay,qUruguay,Semi-Finalist,4,1,2,11,8
-rGermany,qGermany,Semi-finals,5,0,2,16,5
-rParaguay,qParaguay,Quarter-finals,2,2,1,3,2
-rGhana,qGhana,Quarter-finals,2,1,2,5,4
+rGermany,qGermany,Semi-finals,5,0,2,16,5,germany.jpg
+rParaguay,qParaguay,Quarter-finals,2,2,1,3,2,paraguay.jpg
+rGhana,qGhana,Quarter-finals,2,1,2,5,4,ghana.jpg
 rUSA,qGhana,Last 16,1,2,1,5,5
-rSouth Korea,qUruguay,Last 16,1,1,2,6,8
-rSlovakia,qNetherlands,Last 16,1,1,2,5,7
-rPortugal,qSpain,Last 16,1,2,1,7,1
-rMexico,qArgentina,Last 16,1,1,2,4,5
-rEngland,qGermany,Last 16,1,2,1,3,5
-rChile,qBrazil,Last 16,2,0,2,3,5
-rJapan,qParaguay,Last 16,2,0,2,4,2
-rBrazil,qBrazil,Quarter-finals,3,1,1,9,4
-rArgentina,qArgentina,Quarter-finals,4,0,1,10,6
+rSouth Korea,qUruguay,Last 16,1,1,2,6,8,south_korea.jpg
+rSlovakia,qNetherlands,Last 16,1,1,2,5,7,slovakia.jpg
+rPortugal,qSpain,Last 16,1,2,1,7,1,portugal.jpg
+rMexico,qArgentina,Last 16,1,1,2,4,5,mexico.jpg
+rEngland,qGermany,Last 16,1,2,1,3,5,england.jpg
+rChile,qBrazil,Last 16,2,0,2,3,5,chile.jpg
+rJapan,qParaguay,Last 16,2,0,2,4,2,japan.jpg
+rBrazil,qBrazil,Quarter-finals,3,1,1,9,4,brazil.jpg
+rArgentina,qArgentina,Quarter-finals,4,0,1,10,6,argentina.jpg
