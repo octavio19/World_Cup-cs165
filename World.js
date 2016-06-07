@@ -505,15 +505,6 @@ function updateData1982(){
     d3.csv("1982_tree.csv", function(error, data) {
     svg.selectAll("*").remove();
     
-    
-    
-    
-    
-
-
-
-    
-    
 var dataMap = data.reduce(function(map, node) {
 	map[node.name] = node;
 	return map;
