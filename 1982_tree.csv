@@ -1,0 +1,8 @@
+name,parent,finish,wins,ties,losses,goalsfor,goalsagainst,crest
+wItaly,null,Champions,6,1,0,15,5,italy.jpg
+fWest Germany,wItaly,Runners up,4,1,2,5,4,germany_west.jpg
+fItaly,wItaly,Champions,6,1,0,15,5,italy.jpg
+sPoland,fItaly,Runners up,4,1,2,5,4,argentina.jpg
+sItaly,fItaly,Semi-finals,6,0,1,10,2,italy.jpg
+sWest Germany,fWest Germany,Champions,6,1,0,15,5,germany_west.jpg
+sFrance,fWest Germany,Semi-finals,3,2,2,8,6,england.jpg
