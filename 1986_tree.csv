@@ -1,32 +1,32 @@
-name,parent
-Argentina,null
-Finals: Argentina,Argentina
-Finals: West Germany,Argentina
-Semifinals: Argentina,Finals: Argentina
-Semifinals: Belgium,Finals: Argentina
-Semifinals: West Germany,Finals: West Germany
-Semifinals: France,Finals: West Germany
-Quarterfinals: Argentina,Semifinals: Argentina
-Quarterfinals: England,Semifinals: Argentina
-Quarterfinals: Spain,Semifinals: Belgium
-Quarterfinals: Belgium,Semifinals: Belgium
-Quarterfinals: Brazil,Semifinals: France
-Quarterfinals: France,Semifinals: France
-Quarterfinals: West Germany,Semifinals: West Germany
-Quarterfinals: Mexico,Semifinals: West Germany
-Round of 16: Uruguay,Quarterfinals: Argentina
-Round of 16: Argentina,Quarterfinals: Argentina
-Round of 16: England,Quarterfinals: England
-Round of 16: Paraguay,Quarterfinals: England
-Round of 16: Denmark,Quarterfinals: Spain
-Round of 16: Spain,Quarterfinals: Spain
-Round of 16: Soviet Union,Quarterfinals: Belgium
-Round of 16: Belgium,Quarterfinals: Belgium
-Round of 16: Brazil,Quarterfinals: Brazil
-Round of 16: Poland,Quarterfinals: Brazil
-Round of 16: Italy,Quarterfinals: France
-Round of 16: France,Quarterfinals: France
-Round of 16: Morocco,Quarterfinals: West Germany
-Round of 16: West Germany,Quarterfinals: West Germany
-Round of 16: Mexico,Quarterfinals: Mexico
-Round of 16: Bulgaria,Quarterfinals: Mexico
+name,parent,finish,wins,ties,losses,goalsfor,goalsagainst
+wArgentina,null,Champions,6,1,0,14,5
+fArgentina,wArgentina,Champions,6,1,0,14,5
+fWest Germany,wArgentina,Runners up,4,1,2,8,7
+sArgentina,fArgentina,Champions,6,1,0,14,5
+sBelgium,fArgentina,Semi-finals,3,1,3,12,15
+sWest Germany,fWest Germany,Runners up,4,1,2,8,7
+sFrance,fWest Germany,Semi-finals,5,1,1,12,6
+qArgentina,sArgentina,Champions,6,1,0,14,5
+qEngland,sArgentina,Quarter-finals,2,1,2,7,3
+qSpain,sBelgium,Quarter-finals,3,0,2,11,4
+qBelgium,sBelgium,Semi-finals,3,1,3,12,15
+qBrazil,sFrance,Quarter-finals,4,0,1,10,2
+qFrance,sFrance,Semi-finals,5,1,1,12,6
+qWest Germany,sWest Germany,Runners up,4,1,2,8,7
+qMexico,sWest Germany,Quarter-finals,3,1,1,6,2
+rUruguay,qArgentina,Last 16,0,2,2,2,8
+rArgentina,qArgentina,Champions,6,1,0,14,5
+rEngland,qEngland,Quarter-finals,2,1,2,7,3
+rParaguay,qEngland,Last 16,1,2,1,4,7
+rDenmark,qSpain,Last 16,3,0,1,10,6
+rSpain,qSpain,Quarter-finals,3,0,2,11,4
+rSoviet Union,qBelgium,Last 16,2,1,1,12,5
+rBelgium,qBelgium,Semi-finals,3,1,3,12,15
+rBrazil,qBrazil,Quarter-finals,4,0,1,10,2
+rPoland,qBrazil,Last 16,1,1,2,1,7
+rItaly,qFrance,Last 16,1,2,1,5,6
+rFrance,qFrance,Semi-finals,5,1,1,12,6
+rMorocco,qWest Germany,Last 16,1,2,1,3,2
+rWest Germany,qWest Germany,Runners up,4,1,2,8,7
+rMexico,qMexico,Quarter-finals,3,1,1,6,2
+rBulgaria,qMexico,Last 16,0,2,2,2,6

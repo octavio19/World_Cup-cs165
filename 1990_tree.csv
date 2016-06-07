@@ -1,32 +1,32 @@
-name,parent
-West Germany,null
-Finals: Argentina,West Germany
-Finals: West Germany,West Germany
-Semifinals: Argentina,Finals: Argentina
-Semifinals: Italy,Finals: Argentina
-Semifinals: West Germany,Finals: West Germany
-Semifinals: England,Finals: West Germany
-Quarterfinals: Argentina,Semifinals: Argentina
-Quarterfinals: Yugoslavia,Semifinals: Argentina
-Quarterfinals: Republic of Ireland,Semifinals: Italy
-Quarterfinals: Italy,Semifinals: Italy
-Quarterfinals: Czechoslovakia,Semifinals: West Germany
-Quarterfinals: West Germany,Semifinals: West Germany
-Quarterfinals: Cameroon,Semifinals: Italy
-Quarterfinals: England,Semifinals: England
-Round of 16: Brazil,Quarterfinals: Argentina
-Round of 16: Argentina,Quarterfinals: Argentina
-Round of 16: Spain,Quarterfinals: Yugoslavia
-Round of 16: Yugoslavia,Quarterfinals: Yugoslavia
-Round of 16: Romania,Quarterfinals: Republic of Ireland
-Round of 16: Republic of Ireland,Quarterfinals: Republic of Ireland
-Round of 16: Italy,Quarterfinals: Italy
-Round of 16: Uruguay,Quarterfinals: Italy
-Round of 16: Czechoslovakia,Quarterfinals: Czechoslovakia
-Round of 16: Costa Rica,Quarterfinals: Czechoslovakia
-Round of 16: West Germany,Quarterfinals: West Germany
-Round of 16: Netherlands,Quarterfinals: West Germany
-Round of 16: Cameroon,Quarterfinals: Cameroon
-Round of 16: Columbia,Quarterfinals: Cameroon
-Round of 16: England,Quarterfinals: England
-Round of 16: Belgium,Quarterfinals: England
+name,parent,finish,wins,ties,losses,goalsfor,goalsagainst
+wWest Germany,null,Champions,6,1,0,15,5
+fArgentina,wWest Germany,Runners up,4,1,2,5,4
+fWest Germany,wWest Germany,Champions,6,1,0,15,5
+sArgentina,fArgentina,Runners up,4,1,2,5,4
+sItaly,fArgentina,Semi-finals,6,0,1,10,2
+sWest Germany,fWest Germany,Champions,6,1,0,15,5
+sEngland,fWest Germany,Semi-finals,3,2,2,8,6
+qArgentina,sArgentina,Runners up,4,1,2,5,4
+qYugoslavia,sArgentina,Quarter-finals,3,0,2,8,6
+qRepublic of Ireland,sItaly,Quarter-finals,1,3,1,2,3
+qItaly,sItaly,Semi-finals,6,0,1,10,2
+qCzechoslovakia,sWest Germany,Quarter-finals,3,0,2,10,5
+qWest Germany,sWest Germany,Champions,6,1,0,15,5
+qCameroon,sItaly,Quarter-finals,3,0,2,7,9
+qEngland,sEngland,Semi-finals,3,2,2,8,6
+rBrazil,qArgentina,Last 16,3,0,1,4,2
+rArgentina,qArgentina,Runners up,4,1,2,5,4
+rSpain,qYugoslavia,Last 16,2,1,1,6,4
+rYugoslavia,qYugoslavia,Quarter-finals,3,0,2,8,6
+rRomania,qRepublic of Ireland,Last 16,1,1,2,4,3
+rRepublic of Ireland,qRepublic of Ireland,Quarter-finals,1,3,1,2,3
+rItaly,qItaly,Semi-finals,6,0,1,10,2
+rUruguay,qItaly,Last 16,1,1,2,2,5
+rCzechoslovakia,qCzechoslovakia,Quarter-finals,3,0,2,10,5
+rCosta Rica,qCzechoslovakia,Last 16,2,0,2,4,6
+rWest Germany,qWest Germany,Champions,6,1,0,15,5
+rNetherlands,qWest Germany,Last 16,0,3,1,3,4
+rCameroon,qCameroon,Quarter-finals,3,0,2,7,9
+rColumbia,qCameroon,Last 16,1,1,2,4,4
+rEngland,qEngland,Semi-finals,3,2,2,8,6
+rBelgium,qEngland,Last 16,2,0,2,6,4

@@ -194,6 +194,7 @@ function update(source) {
             "" + d.name.substring(1) + "<br/>" +
             "Finish: " + d.finish + "<br/>" +
             "Wins: " + d.wins + "<br/>" +
+            "Ties: " + d.ties + "<br/>" +
             "Losses:" + d.losses + "<br/>" +
             "Goals: " + d.goalsfor + "<br/>" +
             "Goals allowed: " + d.goalsagainst
