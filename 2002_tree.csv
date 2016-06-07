@@ -1,32 +1,32 @@
-name,parent,finish,wins,ties,losses,goalsfor,goalsagainst
-wBrazil,null,Champions,7,0,0,18,4
-fBrazil,wBrazil,Champions,7,0,0,18,4
-fGermany,wBrazil,Runners up,5,1,1,14,3
-sBrazil,fBrazil,Champions,7,0,0,18,4
-sGermany,fGermany,Runners up,5,1,1,14,3
-sSouth Korea,fGermany,Semi-finals,4,1,2,8,6
-sTurkey,fBrazil,Semi-finals,4,1,2,10,6
-qBrazil,sBrazil,Champions,7,0,0,18,4
-qGermany,sGermany,Runners up,5,1,1,14,3
-qSouth Korea,sSouth Korea,Semi-finals,4,1,2,8,6
-qTurkey,sTurkey,Semi-finals,4,1,2,10,6
-qEngland,sBrazil,Quarter-finals,2,2,1,6,3
-qSenegal,sTurkey,Quarter-finals,2,2,1,7,6
-qSpain,sSouth Korea,Quarter-finals,4,0,1,10,5
-qUSA,sGermany,Quarter-finals,2,1,2,7,7
-rBrazil,qBrazil,Champions,7,0,0,18,4
-rGermany,qGermany,Runners up,5,1,1,14,3
-rSouth Korea,qSouth Korea,Semi-finals,4,1,2,8,6
-rTurkey,qTurkey,Semi-finals,4,1,2,10,6
-rEngland,qEngland,Quarter-finals,2,2,1,6,3
-rSenegal,qSenegal,Quarter-finals,2,2,1,7,6
-rSpain,qSpain,Quarter-finals,4,0,1,10,5
-rUSA,qUSA,Quarter-finals,2,1,2,7,7
-rSweden,qSenegal,Last 16,1,2,2,5,5
-rParaguay,qGermany,Last 16,1,1,2,6,7
-rMexico,qUSA,Last 16,2,1,1,4,4
-rJapan,qTurkey,Last 16,2,1,1,5,3
-rItaly,qSouth Korea,Last 16,1,1,2,5,5
-rIreland,qSpain,Last 16,1,2,1,6,3
-rDenmark,qEngland,Last 16,2,1,1,5,5
-rBelgium,qBrazil,Last 16,1,2,1,6,7
+name,parent,finish,wins,ties,losses,goalsfor,goalsagainst,crest
+wBrazil,null,Champions,7,0,0,18,4,brazil.jpg
+fBrazil,wBrazil,Champions,7,0,0,18,4,brazil.jpg
+fGermany,wBrazil,Runners up,5,1,1,14,3,germany.jpg
+sBrazil,fBrazil,Champions,7,0,0,18,4,brazil.jpg
+sGermany,fGermany,Runners up,5,1,1,14,3,germany.jpg
+sSouth Korea,fGermany,Semi-finals,4,1,2,8,6,south_korea.jpg
+sTurkey,fBrazil,Semi-finals,4,1,2,10,6,turkey.jpg
+qBrazil,sBrazil,Champions,7,0,0,18,4,brazil.jpg
+qGermany,sGermany,Runners up,5,1,1,14,3,germany.jpg
+qSouth Korea,sSouth Korea,Semi-finals,4,1,2,8,6,south_korea.jpg
+qTurkey,sTurkey,Semi-finals,4,1,2,10,6,turkey.jpg
+qEngland,sBrazil,Quarter-finals,2,2,1,6,3,england.jpg
+qSenegal,sTurkey,Quarter-finals,2,2,1,7,6,senegal.jpg
+qSpain,sSouth Korea,Quarter-finals,4,0,1,10,5,spain.jpg
+qUSA,sGermany,Quarter-finals,2,1,2,7,7,
+rBrazil,qBrazil,Champions,7,0,0,18,4,brazil.jpg
+rGermany,qGermany,Runners up,5,1,1,14,3,germany.jpg
+rSouth Korea,qSouth Korea,Semi-finals,4,1,2,8,6,south_korea.jpg
+rTurkey,qTurkey,Semi-finals,4,1,2,10,6,turkey.jpg
+rEngland,qEngland,Quarter-finals,2,2,1,6,3,england.jpg
+rSenegal,qSenegal,Quarter-finals,2,2,1,7,6,senegal.jpg
+rSpain,qSpain,Quarter-finals,4,0,1,10,5,spain.jpg
+rUSA,qUSA,Quarter-finals,2,1,2,7,7,
+rSweden,qSenegal,Last 16,1,2,2,5,5,sweden.jpg
+rParaguay,qGermany,Last 16,1,1,2,6,7,paraguay.jpg
+rMexico,qUSA,Last 16,2,1,1,4,4,mexico.jpg
+rJapan,qTurkey,Last 16,2,1,1,5,3,japan.jpg
+rItaly,qSouth Korea,Last 16,1,1,2,5,5,italy.jpg
+rIreland,qSpain,Last 16,1,2,1,6,3,ireland.jpg
+rDenmark,qEngland,Last 16,2,1,1,5,5,denmark.jpg
+rBelgium,qBrazil,Last 16,1,2,1,6,7,belgium.jpg

@@ -1,32 +1,32 @@
-name,parent,finish,wins,ties,losses,goalsfor,goalsagainst
-wWest Germany,null,Champions,6,1,0,15,5
-fArgentina,wWest Germany,Runners up,4,1,2,5,4
-fWest Germany,wWest Germany,Champions,6,1,0,15,5
-sArgentina,fArgentina,Runners up,4,1,2,5,4
-sItaly,fArgentina,Semi-finals,6,0,1,10,2
-sWest Germany,fWest Germany,Champions,6,1,0,15,5
-sEngland,fWest Germany,Semi-finals,3,2,2,8,6
-qArgentina,sArgentina,Runners up,4,1,2,5,4
-qYugoslavia,sArgentina,Quarter-finals,3,0,2,8,6
-qRepublic of Ireland,sItaly,Quarter-finals,1,3,1,2,3
-qItaly,sItaly,Semi-finals,6,0,1,10,2
-qCzechoslovakia,sWest Germany,Quarter-finals,3,0,2,10,5
-qWest Germany,sWest Germany,Champions,6,1,0,15,5
-qCameroon,sItaly,Quarter-finals,3,0,2,7,9
-qEngland,sEngland,Semi-finals,3,2,2,8,6
-rBrazil,qArgentina,Last 16,3,0,1,4,2
-rArgentina,qArgentina,Runners up,4,1,2,5,4
-rSpain,qYugoslavia,Last 16,2,1,1,6,4
-rYugoslavia,qYugoslavia,Quarter-finals,3,0,2,8,6
-rRomania,qRepublic of Ireland,Last 16,1,1,2,4,3
-rRepublic of Ireland,qRepublic of Ireland,Quarter-finals,1,3,1,2,3
-rItaly,qItaly,Semi-finals,6,0,1,10,2
-rUruguay,qItaly,Last 16,1,1,2,2,5
-rCzechoslovakia,qCzechoslovakia,Quarter-finals,3,0,2,10,5
-rCosta Rica,qCzechoslovakia,Last 16,2,0,2,4,6
-rWest Germany,qWest Germany,Champions,6,1,0,15,5
-rNetherlands,qWest Germany,Last 16,0,3,1,3,4
-rCameroon,qCameroon,Quarter-finals,3,0,2,7,9
-rColumbia,qCameroon,Last 16,1,1,2,4,4
-rEngland,qEngland,Semi-finals,3,2,2,8,6
-rBelgium,qEngland,Last 16,2,0,2,6,4
+name,parent,finish,wins,ties,losses,goalsfor,goalsagainst,crest
+wWest Germany,null,Champions,6,1,0,15,5,germany_west.jpg
+fArgentina,wWest Germany,Runners up,4,1,2,5,4,argentina.jpg
+fWest Germany,wWest Germany,Champions,6,1,0,15,5,germany_west.jpg
+sArgentina,fArgentina,Runners up,4,1,2,5,4,argentina.jpg
+sItaly,fArgentina,Semi-finals,6,0,1,10,2,italy.jpg
+sWest Germany,fWest Germany,Champions,6,1,0,15,5,germany_west.jpg
+sEngland,fWest Germany,Semi-finals,3,2,2,8,6,england.jpg
+qArgentina,sArgentina,Runners up,4,1,2,5,4,argentina.jpg
+qYugoslavia,sArgentina,Quarter-finals,3,0,2,8,6,yugoslavia.jpg
+qRepublic of Ireland,sItaly,Quarter-finals,1,3,1,2,3,ireland.jpg
+qItaly,sItaly,Semi-finals,6,0,1,10,2,italy.jpg
+qCzechoslovakia,sWest Germany,Quarter-finals,3,0,2,10,5,czech_republic.jpg
+qWest Germany,sWest Germany,Champions,6,1,0,15,5,germany_west.jpg
+qCameroon,sEngland,Quarter-finals,3,0,2,7,9,cameroon.jpg
+qEngland,sEngland,Semi-finals,3,2,2,8,6,england.jpg
+rBrazil,qArgentina,Last 16,3,0,1,4,2,brazil.jpg
+rArgentina,qArgentina,Runners up,4,1,2,5,4,argentina.jpg
+rSpain,qYugoslavia,Last 16,2,1,1,6,4,spain.jpg
+rYugoslavia,qYugoslavia,Quarter-finals,3,0,2,8,6,yugoslavia.jpg
+rRomania,qRepublic of Ireland,Last 16,1,1,2,4,3,romania.jpg
+rRepublic of Ireland,qRepublic of Ireland,Quarter-finals,1,3,1,2,3,ireland.jpg
+rItaly,qItaly,Semi-finals,6,0,1,10,2,italy.jpg
+rUruguay,qItaly,Last 16,1,1,2,2,5,uruguay.jpg
+rCzechoslovakia,qCzechoslovakia,Quarter-finals,3,0,2,10,5,czech_republic.jpg
+rCosta Rica,qCzechoslovakia,Last 16,2,0,2,4,6,costa_rica.jpg
+rWest Germany,qWest Germany,Champions,6,1,0,15,5,germany_west.jpg
+rNetherlands,qWest Germany,Last 16,0,3,1,3,4,netherlands.jpg
+rCameroon,qCameroon,Quarter-finals,3,0,2,7,9,cameroon.jpg
+rColumbia,qCameroon,Last 16,1,1,2,4,4,colombia.jpg
+rEngland,qEngland,Semi-finals,3,2,2,8,6,england.jpg
+rBelgium,qEngland,Last 16,2,0,2,6,4,belgium.jpg

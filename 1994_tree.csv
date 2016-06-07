@@ -1,32 +1,32 @@
-name,parent,finish,wins,ties,losses,goalsfor,goalsagainst
-wBrazil,null,Champions,6,1,0,11,4
-fBrazil,wBrazil,Champions,6,1,0,11,4
-fItaly,wBrazil,Runners up,4,1,2,8,5
-sBrazil,fBrazil,Champions,6,1,0,11,4
-sItaly,fItaly,Runners up,4,1,2,8,5
-sSweden,fBrazil,Semi-finals,4,2,1,14,7
-sBulgaria,fItaly,Semi-finals,4,0,3,10,11
-qBrazil,sBrazil,Champions,6,1,0,11,4
-qItaly,sItaly,Runners up,4,1,2,8,5
-qSweden,sSweden,Semi-finals,4,2,1,14,7
-qBulgaria,sBulgaria,Semi-finals,4,0,3,10,11
-qSpain,sItaly,Quarter-finals,2,2,1,10,6
-qRomania,sSweden,Quarter-finals,3,0,2,10,9
-qNetherlands,sBrazil,Quarter-finals,3,0,2,8,6
-qGermany,sBulgaria,Quarter-finals,3,1,1,9,7
-rBrazil,qBrazil,Champions,6,1,0,11,4
-rItaly,qItaly,Runners up,4,1,2,8,5
-rSweden,qSweden,Semi-finals,4,2,1,14,7
-rBulgaria,qBulgaria,Semi-finals,4,0,3,10,11
-rSpain,qSpain,Quarter-finals,2,2,1,10,6
-rRomania,qRomania,Quarter-finals,3,0,2,10,9
-rNetherlands,qNetherlands,Quarter-finals,3,0,2,8,6
-rGermany,qGermany,Quarter-finals,3,1,1,9,7
+name,parent,finish,wins,ties,losses,goalsfor,goalsagainst,crest
+wBrazil,null,Champions,6,1,0,11,4,brazil.jpg
+fBrazil,wBrazil,Champions,6,1,0,11,4,brazil.jpg
+fItaly,wBrazil,Runners up,4,1,2,8,5,italy.jpg
+sBrazil,fBrazil,Champions,6,1,0,11,4,brazil.jpg
+sItaly,fItaly,Runners up,4,1,2,8,5,italy.jpg
+sSweden,fBrazil,Semi-finals,4,2,1,14,7,sweden.jpg
+sBulgaria,fItaly,Semi-finals,4,0,3,10,11,bulgaria.jpg
+qBrazil,sBrazil,Champions,6,1,0,11,4,brazil.jpg
+qItaly,sItaly,Runners up,4,1,2,8,5,italy.jpg
+qSweden,sSweden,Semi-finals,4,2,1,14,7,sweden.jpg
+qBulgaria,sBulgaria,Semi-finals,4,0,3,10,11,bulgaria.jpg
+qSpain,sItaly,Quarter-finals,2,2,1,10,6,spain.jpg
+qRomania,sSweden,Quarter-finals,3,0,2,10,9,romania.jpg
+qNetherlands,sBrazil,Quarter-finals,3,0,2,8,6,netherlands.jpg
+qGermany,sBulgaria,Quarter-finals,3,1,1,9,7,germany.jpg
+rBrazil,qBrazil,Champions,6,1,0,11,4,brazil.jpg
+rItaly,qItaly,Runners up,4,1,2,8,5,italy.jpg
+rSweden,qSweden,Semi-finals,4,2,1,14,7,sweden.jpg
+rBulgaria,qBulgaria,Semi-finals,4,0,3,10,11,bulgaria.jpg
+rSpain,qSpain,Quarter-finals,2,2,1,10,6,spain.jpg
+rRomania,qRomania,Quarter-finals,3,0,2,10,9,romania.jpg
+rNetherlands,qNetherlands,Quarter-finals,3,0,2,8,6,netherlands.jpg
+rGermany,qGermany,Quarter-finals,3,1,1,9,7,germany.jpg
 rUSA,qBrazil,Last 16,1,1,2,3,4
-rNigeria,qItaly,Last 16,2,0,2,7,4
-rMexico,qBulgaria,Last 16,1,1,2,4,4
-rIreland,qNetherlands,Last 16,1,1,2,2,4
-rBelgium,qGermany,Last 16,2,0,2,4,4
-rSwitzerland,qSpain,Last 16,1,1,2,5,7
-rSaudi Arabia,qSweden,Last 16,2,0,2,5,6
-rArgentina,qRomania,Last 16,2,0,2,8,6
+rNigeria,qItaly,Last 16,2,0,2,7,4,nigeria.jpg
+rMexico,qBulgaria,Last 16,1,1,2,4,4,mexico.jpg
+rIreland,qNetherlands,Last 16,1,1,2,2,4,ireland.jpg
+rBelgium,qGermany,Last 16,2,0,2,4,4,belgium.jpg
+rSwitzerland,qSpain,Last 16,1,1,2,5,7,switzerland.jpg
+rSaudi Arabia,qSweden,Last 16,2,0,2,5,6,saudi_arabia.jpg
+rArgentina,qRomania,Last 16,2,0,2,8,6,argentina.jpg

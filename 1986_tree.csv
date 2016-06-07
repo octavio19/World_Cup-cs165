@@ -1,32 +1,32 @@
-name,parent,finish,wins,ties,losses,goalsfor,goalsagainst
-wArgentina,null,Champions,6,1,0,14,5
-fArgentina,wArgentina,Champions,6,1,0,14,5
-fWest Germany,wArgentina,Runners up,4,1,2,8,7
-sArgentina,fArgentina,Champions,6,1,0,14,5
-sBelgium,fArgentina,Semi-finals,3,1,3,12,15
-sWest Germany,fWest Germany,Runners up,4,1,2,8,7
-sFrance,fWest Germany,Semi-finals,5,1,1,12,6
-qArgentina,sArgentina,Champions,6,1,0,14,5
-qEngland,sArgentina,Quarter-finals,2,1,2,7,3
-qSpain,sBelgium,Quarter-finals,3,0,2,11,4
-qBelgium,sBelgium,Semi-finals,3,1,3,12,15
-qBrazil,sFrance,Quarter-finals,4,0,1,10,2
-qFrance,sFrance,Semi-finals,5,1,1,12,6
-qWest Germany,sWest Germany,Runners up,4,1,2,8,7
-qMexico,sWest Germany,Quarter-finals,3,1,1,6,2
-rUruguay,qArgentina,Last 16,0,2,2,2,8
-rArgentina,qArgentina,Champions,6,1,0,14,5
-rEngland,qEngland,Quarter-finals,2,1,2,7,3
-rParaguay,qEngland,Last 16,1,2,1,4,7
-rDenmark,qSpain,Last 16,3,0,1,10,6
-rSpain,qSpain,Quarter-finals,3,0,2,11,4
-rSoviet Union,qBelgium,Last 16,2,1,1,12,5
-rBelgium,qBelgium,Semi-finals,3,1,3,12,15
-rBrazil,qBrazil,Quarter-finals,4,0,1,10,2
-rPoland,qBrazil,Last 16,1,1,2,1,7
-rItaly,qFrance,Last 16,1,2,1,5,6
-rFrance,qFrance,Semi-finals,5,1,1,12,6
-rMorocco,qWest Germany,Last 16,1,2,1,3,2
-rWest Germany,qWest Germany,Runners up,4,1,2,8,7
-rMexico,qMexico,Quarter-finals,3,1,1,6,2
-rBulgaria,qMexico,Last 16,0,2,2,2,6
+name,parent,finish,wins,ties,losses,goalsfor,goalsagainst,crest
+wArgentina,null,Champions,6,1,0,14,5,argentina.jpg
+fArgentina,wArgentina,Champions,6,1,0,14,5,argentina.jpg
+fWest Germany,wArgentina,Runners up,4,1,2,8,7,germany_west.jpg
+sArgentina,fArgentina,Champions,6,1,0,14,5,argentina.jpg
+sBelgium,fArgentina,Semi-finals,3,1,3,12,15,belgium.jpg
+sWest Germany,fWest Germany,Runners up,4,1,2,8,7,germany_west.jpg
+sFrance,fWest Germany,Semi-finals,5,1,1,12,6,france.jpg
+qArgentina,sArgentina,Champions,6,1,0,14,5,argentina.jpg
+qEngland,sArgentina,Quarter-finals,2,1,2,7,3,england.jpg
+qSpain,sBelgium,Quarter-finals,3,0,2,11,4,spain.jpg
+qBelgium,sBelgium,Semi-finals,3,1,3,12,15,belgium.jpg
+qBrazil,sFrance,Quarter-finals,4,0,1,10,2,brazil.jpg
+qFrance,sFrance,Semi-finals,5,1,1,12,6,france.jpg
+qWest Germany,sWest Germany,Runners up,4,1,2,8,7,germany_west.jpg
+qMexico,sWest Germany,Quarter-finals,3,1,1,6,2,mexico.jpg
+rUruguay,qArgentina,Last 16,0,2,2,2,8,uruguay.jpg
+rArgentina,qArgentina,Champions,6,1,0,14,5,argentina.jpg
+rEngland,qEngland,Quarter-finals,2,1,2,7,3,england.jpg
+rParaguay,qEngland,Last 16,1,2,1,4,7,paraguay.jpg
+rDenmark,qSpain,Last 16,3,0,1,10,6,denmark.jpg
+rSpain,qSpain,Quarter-finals,3,0,2,11,4,spain.jpg
+rSoviet Union,qBelgium,Last 16,2,1,1,12,5,soviet_union.jpg
+rBelgium,qBelgium,Semi-finals,3,1,3,12,15,belgium.jpg
+rBrazil,qBrazil,Quarter-finals,4,0,1,10,2,brazil.jpg
+rPoland,qBrazil,Last 16,1,1,2,1,7,poland.jpg
+rItaly,qFrance,Last 16,1,2,1,5,6,itlay.jpg
+rFrance,qFrance,Semi-finals,5,1,1,12,6,france.jpg
+rMorocco,qWest Germany,Last 16,1,2,1,3,2,morocco.jpg
+rWest Germany,qWest Germany,Runners up,4,1,2,8,7,germany_west.jpg
+rMexico,qMexico,Quarter-finals,3,1,1,6,2,mexico.jpg
+rBulgaria,qMexico,Last 16,0,2,2,2,6,bulgaria.jpg

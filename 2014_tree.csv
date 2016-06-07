@@ -8,16 +8,16 @@ sNetherlands,fArgentina,Semi-finals,6,0,1,15,4,netherlands.jpg
 sArgentina,fArgentina,Runners-up,6,0,1,8,4,argentina.jpg
 qBrazil,sBrazil,Semi-finals,4,0,3,11,14,brazil.jpg
 qColumbia,sBrazil,Quarter-finals,4,0,1,12,4,colombia.jpg
-qFrance,sGermany,Quarter-finals,3,1,1,10,3
+qFrance,sGermany,Quarter-finals,3,1,1,10,3,france.jpg
 qGermany,sGermany,Champion,6,1,0,18,4,germany_west.jpg
 qNetherlands,sNetherlands,Semi-finals,6,0,1,15,4,netherlands.jpg
-qCosta Rica,sNetherlands,Quarter-finals,3,1,1,5,2
+qCosta Rica,sNetherlands,Quarter-finals,3,1,1,5,2,costa_rica.jpg
 qArgentina,sArgentina,Runners-up,6,0,1,8,4,argentina.jpg
-qBelgium,sArgentina,Quarterfinals,4,0,1,6,3
+qBelgium,sArgentina,Quarterfinals,4,0,1,6,3,belgium.jpg
 rBrazil,qBrazil,Semi-finals,4,0,3,11,14,brazil.jpg
 rChile,qBrazil,Last 16,2,0,2,6,4,chile.jpg
 rColumbia,qColumbia,Quarter-finals,4,0,1,12,4,colombia.jpg
-rUruguay,qColumbia,Uruguay,Last 16,2,0,2,4,4,uruguay.jpg
+rUruguay,qColumbia,Uruguay,Last 16,2,0,2,4,uruguay.jpg
 rCosta Rica,qCosta Rica,Quarter-finals,3,1,1,5,2,costa_rica.jpg
 rGreece,qCosta Rica,Last 16,1,1,2,3,5,greece.jpg
 rArgentina,qArgentina,Runners-up,6,0,1,8,4,argentina.jpg
