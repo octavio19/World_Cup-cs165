@@ -1,32 +1,32 @@
-name,parent
-Spain,null
-Finals: Netherlands,Spain
-Finals: Spain,Spain
-Semifinals: Germany,Finals: Spain
-Semifinals: Spain,Finals: Spain
-Semifinals: Netherlands,Finals: Netherlands
-Semifinals: Uruguay,Finals: Netherlands
-Quarterfinals: Uruguay,Semifinals: Uruguay
-Quarterfinals: Ghana,Semifinals: Uruguay
-Quarterfinals: Netherlands,Semifinals: Netherlands
-Quarterfinals: Brazil,Semifinals: Netherlands
-Quarterfinals: Germany,Semifinals: Germany
-Quarterfinals: Argentina,Semifinals: Germany
-Quarterfinals: Paraguay,Semifinals: Spain
-Quarterfinals: Spain,Semifinals: Spain
-Round of 16: Uruaguay,Quarterfinals: Uruaguay
-Round of 16: South Korea,Quarterfinals: Uruguay
-Round of 16: United States,Quarterfinals: Ghana
-Round of 16: Ghana,Quarterfinals: Ghana
-Round of 16: Netherlands,Quarterfinals: Netherlands
-Round of 16: Slovakia,Quarterfinals: Netherlands
-Round of 16: Brazil,Quarterfinals: Brazil
-Round of 16: Chile,Quarterfinals: Brazil
-Round of 16: Argentina,Quarterfinals: Argentina
-Round of 16: Mexico,Quarterfinals: Argentina
-Round of 16: Germany,Quarterfinals: Germany
-Round of 16: England,Quarterfinals: Germany
-Round of 16: Paraguay,Quarterfinals: Paraguay
-Round of 16: Japan,Quarterfinals: Paraguay
-Round of 16: Spain,Quarterfinals: Spain
-Round of 16: Portugal,Quarterfinals: Spain
+name,parent,finish,wins,ties,losses,goalsfor,goalsagainst
+wSpain,null,Champion,6,0,1,8,2
+fSpain,wSpain,Champion,6,0,1,8,2
+fNetherlands,wSpain,Runners up,6,0,1,12,6
+sSpain,fSpain,Champion,6,0,1,8,2
+sNetherlands,fNetherlands,Runners up,6,0,1,12,6
+sUruguay,fNetherlands,Semi-Finalist,4,1,2,11,8
+sGermany,fSpain,Semi-finals,5,0,2,16,5
+qSpain,sSpain,Champion,6,0,1,8,2
+qNetherlands,sNetherlands,Runners up,6,0,1,12,6
+qUruguay,sUruguay,Semi-Finalist,4,1,2,11,8
+qGermany,sGermany,Semi-finals,5,0,2,16,5
+qParaguay,sSpain,Quarter-finals,2,2,1,3,2
+qGhana,sUruguay,Quarter-finals,2,1,2,5,4
+qBrazil,sNetherlands,Quarter-finals,3,1,1,9,4
+qArgentina,sGermany,Quarter-finals,4,0,1,10,6
+rSpain,qSpain,Champion,6,0,1,8,2
+rNetherlands,qNetherlands,Runners up,6,0,1,12,6
+rUruguay,qUruguay,Semi-Finalist,4,1,2,11,8
+rGermany,qGermany,Semi-finals,5,0,2,16,5
+rParaguay,qParaguay,Quarter-finals,2,2,1,3,2
+rGhana,qGhana,Quarter-finals,2,1,2,5,4
+rUSA,qGhana,Last 16,1,2,1,5,5
+rSouth Korea,qUruguay,Last 16,1,1,2,6,8
+rSlovakia,qNetherlands,Last 16,1,1,2,5,7
+rPortugal,qSpain,Last 16,1,2,1,7,1
+rMexico,qArgentina,Last 16,1,1,2,4,5
+rEngland,qGermany,Last 16,1,2,1,3,5
+rChile,qBrazil,Last 16,2,0,2,3,5
+rJapan,qParaguay,Last 16,2,0,2,4,2
+rBrazil,qBrazil,Quarter-finals,3,1,1,9,4
+rArgentina,qArgentina,Quarter-finals,4,0,1,10,6

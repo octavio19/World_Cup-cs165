@@ -206,17 +206,20 @@ function update(source) {
           .duration(500)
           .style("opacity", 0);
         });
-
-  nodeEnter.append("circle")
-	  .attr("r", 10)
-	  .style("fill", "#fff");
    
-/*    
+  nodeEnter.append("circle")
+	  .attr("r", 8)
+	  .style("fill", "#fff");
+      
+   
+  /*
  nodeEnter.append("g")
           .append("svg:image")
-          .attr("xlink:href","http://www.clker.com/cliparts/1/4/5/a/1331068897296558865Sitting%20Racoon.svg")
-        .attr("width", 30)
-    .attr("height", 30)
+          .attr("xlink:href","Brazil.jpg")
+        .attr("width", 20)
+        .attr("height", 20)
+        .attr("x",-10)
+        .attr("y",-10);
 */
 
     

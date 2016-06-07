@@ -1,32 +1,32 @@
-name,parent
-France,null
-Finals: Brazil,France
-Finals: France,France
-Semifinals: Brazil,Finals: Brazil
-Semifinals: Netherlands,Finals: Brazil
-Semifinals: France,Finals: France
-Semifinals: Croatia,Finals: France
-Quarterfinals: Brazil,Semifinals: Brazil
-Quarterfinals: Denmark,Semifinals: Brazil
-Quarterfinals: Netherlands,Semifinals: Netherlands
-Quarterfinals: Argentina,Semifinals: Netherlands
-Quarterfinals: Italy,Semifinals: France
-Quarterfinals: France,Semifinals: France
-Quarterfinals: Germany,Semifinals: Croatia
-Quarterfinals: Croatia,Semifinals: Croatia
-Round of 16: Brazil,Quarterfinals: Brazil
-Round of 16: Chile,Quarterfinals: Brazil
-Round of 16: Nigeria,Quarterfinals: Denmark
-Round of 16: Denmark,Quarterfinals: Denmark
-Round of 16: Netherlands,Quarterfinals: Netherlands
-Round of 16: Yugoslavia,Quarterfinals: Netherlands
-Round of 16: Argentina,Quarterfinals: Argentina
-Round of 16: England,Quarterfinals: Argentina
-Round of 16: Italy,Quarterfinals: Italy
-Round of 16: Norway,Quarterfinals: Italy
-Round of 16: France,Quarterfinals: France
-Round of 16: Paraguay,Quarterfinals: France
-Round of 16: Germany,Quarterfinals: Germany
-Round of 16: Mexico,Quarterfinals: Germany
-Round of 16: Romania,Quarterfinals: Croatia
-Round of 16: Croatia,Quarterfinals: Croatia
+name,parent,finish,wins,ties,losses,goalsfor,goalsagainst
+wFrance,null,Champions,7,0,0,15,2
+fFrance,wFrance,Champions,7,0,0,15,2
+fBrazil,wFrance,Runners up,5,0,2,14,10
+sFrance,fFrance,Champions,7,0,0,15,2
+sBrazil,fBrazil,Runners up,5,0,2,14,10
+sCroatia,fFrance,Semi-finals,5,0,2,10,5
+sNetherlands,fBrazil,Semi-finals,3,2,2,13,7
+qFrance,sFrance,Champions,7,0,0,15,2
+qBrazil,sBrazil,Runners up,5,0,2,14,10
+qCroatia,sCroatia,Semi-finals,5,0,2,10,5
+qNetherlands,sNetherlands,Semi-finals,3,2,2,13,7
+qItaly,sFrance,Quarter-finals,3,1,1,8,3
+qGermany,sCroatia,Quarter-finals,3,1,1,8,6
+qDenmark,sBrazil,Quarter-finals,2,1,2,9,7
+qArgentina,sNetherlands,Quarter-finals,4,0,1,10,4
+rFrance,qFrance,Champions,7,0,0,15,2
+rBrazil,qBrazil,Runners up,5,0,2,14,10
+rCroatia,qCroatia,Semi-finals,5,0,2,10,5
+rNetherlands,qNetherlands,Semi-finals,3,2,2,13,7
+rItaly,qItaly,Quarter-finals,3,1,1,8,3
+rGermany,qGermany,Quarter-finals,3,1,1,8,6
+rDenmark,qDenmark,Quarter-finals,2,1,2,9,7
+rArgentina,qArgentina,Quarter-finals,4,0,1,10,4
+rYugoslavia,qNetherlands,Last 16,2,1,1,5,4
+rRomania,qCroatia,Last 16,2,1,1,4,3
+rParaguay,qFrance,Last 16,1,2,1,3,2
+rNorway,qItaly,Last 16,1,2,1,5,5
+rNigeria,qDenmark,Last 16,2,0,2,6,9
+rMexico,qGermany,Last 16,1,2,1,8,7
+rEngland,qArgentina,Last 16,2,0,2,7,4
+rChile,qBrazil,Last 16,0,3,1,5,8

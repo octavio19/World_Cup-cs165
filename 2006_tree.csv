@@ -1,32 +1,32 @@
-name,parent
-Italy,null
-Finals: Italy,Italy
-Finals: France,Italy
-Semifinals: Germany,Finals: Italy
-Semifinals: Italy,Finals: Italy
-Semifinals: Portugal,Finals: France
-Semifinals: France,Finals: France
-Quarterfinals: Germany,Semifinals: Germany
-Quarterfinals: Argentina,Semifinals: Germany
-Quarterfinals: Italy,Semifinals: Italy
-Quarterfinals: Ukraine,Semifinals: Italy
-Quarterfinals: England,Semifinals: Portugal
-Quarterfinals: Portugal,Semifinals: Portugal
-Quarterfinals: Brazil,Semifinals: France
-Quarterfinals: France,Semifinals: France
-Round of 16: Germany,Quarterfinals: Germany
-Round of 16: Sweeden,Quarterfinals: Germany
-Round of 16: Argentina,Quarterfinals: Argentina
-Round of 16: Mexico,Quarterfinals: Argentina
-Round of 16: Italy,Quarterfinals: Italy
-Round of 16: Australia,Quarterfinals: Italy
-Round of 16: Switzerland,Quarterfinals: Ukraine
-Round of 16: Ukraine,Quarterfinals: Ukraine
-Round of 16: England,Quarterfinals: England
-Round of 16: Ecuador,Quarterfinals: England
-Round of 16: Portugal,Quarterfinals: Portugal
-Round of 16: Netherlands,Quarterfinals: Portugal
-Round of 16: Brazil,Quarterfinals: Brazil
-Round of 16: Ghana,Quarterfinals: Brazil
-Round of 16: Spain,Quarterfinals: France
-Round of 16: France,Quarterfinals: France
+name,parent,finish,wins,ties,losses,goalsfor,goalsagainst
+wItaly,null,Champions,6,1,0,12,2
+fItaly,wItaly,Champions,6,1,0,12,2
+fFrance,wItaly,Runners up,4,2,1,9,3
+sItaly,fItaly,Champions,6,1,0,12,2
+sFrance,fFrance,Runners up,4,2,1,9,3
+sGermany,fItaly,Semi-finals,6,0,1,14,6
+sPortugal,fFrance,Semi-finals,5,0,2,7,5
+qItaly,sItaly,Champions,6,1,0,12,2
+qFrance,sFrance,Runners up,4,2,1,9,3
+qGermany,sGermany,Semi-finals,6,0,1,14,6
+qPortugal,sPortugal,Semi-finals,5,0,2,7,5
+qUkraine,sItaly,Quarter-finals,3,0,2,5,7
+qEngland,sPortugal,Quarter-finals,3,1,1,6,2
+qBrazil,sFrance,Quarter-finals,4,0,1,10,2
+qArgentina,sGermany,Quarter-finals,3,1,1,11,3
+rItaly,qItaly,Champions,6,1,0,12,2
+rFrance,qFrance,Runners up,4,2,1,9,3
+rGermany,qGermany,Semi-finals,6,0,1,14,6
+rPortugal,qPortugal,Semi-finals,5,0,2,7,5
+rUkraine,qUkraine,Quarter-finals,3,0,2,5,7
+rEngland,qEngland,Quarter-finals,3,1,1,6,2
+rBrazil,qBrazil,Quarter-finals,4,0,1,10,2
+rArgentina,qArgentina,Quarter-finals,3,1,1,11,3
+rSwitzerland,qUkraine,Last 16,2,1,1,4,0
+rSweden,qGermany,Last 16,1,2,1,3,4
+rSpain,qFrance,Last 16,3,0,1,9,4
+rNetherlands,qPortugal,Last 16,2,1,1,3,2
+rMexico,qArgentina,Last 16,1,1,2,5,5
+rGhana,qBrazil,Last 16,2,0,2,4,6
+rEcuador,qEngland,Last 16,2,0,2,5,4
+rAustralia,qItaly,Last 16,1,1,2,5,6

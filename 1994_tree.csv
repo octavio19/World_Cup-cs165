@@ -1,32 +1,32 @@
-name,parent
-Brazil,null
-Finals: Brazil,Brazil
-Finals: Italy,Brazil
-Semifinals: Brazil,Finals: Brazil
-Semifinals: Sweeden,Finals: Brazil
-Semifinals: Bulgaria,Finals: Italy
-Semifinals: Italy,Finals: Italy
-Quarterfinals: Romania,Semifinals: Sweeden
-Quarterfinals: Sweeden,Semifinals: Sweeden
-Quarterfinals: Netherlands,Semifinals: Brazil
-Quarterfinals: Brazil,Semifinals: Brazil
-Quarterfinals: Bulgaria,Semifinals: Bulgaria
-Quarterfinals: Germany,Semifinals: Bulgaria
-Quarterfinals: Italy,Semifinals: Italy
-Quarterfinals: Spain,Semifinals: Italy
-Round of 16: Romania,Quarterfinals: Romania
-Round of 16: Argentina,Quarterfinals: Romania
-Round of 16: Saudi Arabia,Quarterfinals: Sweeden
-Round of 16: Sweeden,Quarterfinals: Sweeden
-Round of 16: Netherlands,Quarterfinals: Netherlands
-Round of 16: Republic of Ireland,Quarterfinals: Netherlands
-Round of 16: Brazil,Quarterfinals: Brazil
-Round of 16: United States,Quarterfinals: Brazil
-Round of 16: Mexico,Quarterfinals: Bulgaria
-Round of 16: Bulgaria,Quarterfinals: Bulgaria
-Round of 16: Germany,Quarterfinals: Germany
-Round of 16: Belgium,Quarterfinals: Germany
-Round of 16: Nigeria,Quarterfinals: Italy
-Round of 16: Italy,Quarterfinals: Italy
-Round of 16: Spain,Quarterfinals: Spain
-Round of 16: Switzerland,Quarterfinals: Spain
+name,parent,finish,wins,ties,losses,goalsfor,goalsagainst
+wBrazil,null,Champions,6,1,0,11,4
+fBrazil,wBrazil,Champions,6,1,0,11,4
+fItaly,wBrazil,Runners up,4,1,2,8,5
+sBrazil,fBrazil,Champions,6,1,0,11,4
+sItaly,fItaly,Runners up,4,1,2,8,5
+sSweden,fBrazil,Semi-finals,4,2,1,14,7
+sBulgaria,fItaly,Semi-finals,4,0,3,10,11
+qBrazil,sBrazil,Champions,6,1,0,11,4
+qItaly,sItaly,Runners up,4,1,2,8,5
+qSweden,sSweden,Semi-finals,4,2,1,14,7
+qBulgaria,sBulgaria,Semi-finals,4,0,3,10,11
+qSpain,sItaly,Quarter-finals,2,2,1,10,6
+qRomania,sSweden,Quarter-finals,3,0,2,10,9
+qNetherlands,sBrazil,Quarter-finals,3,0,2,8,6
+qGermany,sBulgaria,Quarter-finals,3,1,1,9,7
+rBrazil,qBrazil,Champions,6,1,0,11,4
+rItaly,qItaly,Runners up,4,1,2,8,5
+rSweden,qSweden,Semi-finals,4,2,1,14,7
+rBulgaria,qBulgaria,Semi-finals,4,0,3,10,11
+rSpain,qSpain,Quarter-finals,2,2,1,10,6
+rRomania,qRomania,Quarter-finals,3,0,2,10,9
+rNetherlands,qNetherlands,Quarter-finals,3,0,2,8,6
+rGermany,qGermany,Quarter-finals,3,1,1,9,7
+rUSA,qBrazil,Last 16,1,1,2,3,4
+rNigeria,qItaly,Last 16,2,0,2,7,4
+rMexico,qBulgaria,Last 16,1,1,2,4,4
+rIreland,qNetherlands,Last 16,1,1,2,2,4
+rBelgium,qGermany,Last 16,2,0,2,4,4
+rSwitzerland,qSpain,Last 16,1,1,2,5,7
+rSaudi Arabia,qSweden,Last 16,2,0,2,5,6
+rArgentina,qRomania,Last 16,2,0,2,8,6
