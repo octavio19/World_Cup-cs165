@@ -693,5 +693,194 @@ data.forEach(function(node) {
     
 }
 
+function updateData1958(){
+    d3.csv("1958_tree.csv", function(error, data) {
+    svg.selectAll("*").remove();
+    
+var dataMap = data.reduce(function(map, node) {
+	map[node.name] = node;
+	return map;
+}, {});
 
+// create the tree array
+var treeData = [];
+data.forEach(function(node) {
+	// add to parent
+	var parent = dataMap[node.parent];
+	if (parent) {
+		// create child array if it doesn't exist
+		(parent.children || (parent.children = []))
+			// add node to child array
+			.push(node);
+	} else {
+		// parent is null or missing
+		treeData.push(node);
+	}
+});
 
+  root = treeData[0];
+  update(root);
+});
+    
+    
+}
+
+function updateData1954(){
+    d3.csv("1954_tree.csv", function(error, data) {
+    svg.selectAll("*").remove();
+    
+var dataMap = data.reduce(function(map, node) {
+	map[node.name] = node;
+	return map;
+}, {});
+
+// create the tree array
+var treeData = [];
+data.forEach(function(node) {
+	// add to parent
+	var parent = dataMap[node.parent];
+	if (parent) {
+		// create child array if it doesn't exist
+		(parent.children || (parent.children = []))
+			// add node to child array
+			.push(node);
+	} else {
+		// parent is null or missing
+		treeData.push(node);
+	}
+});
+
+  root = treeData[0];
+  update(root);
+});
+    
+    
+}
+
+function updateData1950(){
+    d3.csv("1950_tree.csv", function(error, data) {
+    svg.selectAll("*").remove();
+    
+var dataMap = data.reduce(function(map, node) {
+	map[node.name] = node;
+	return map;
+}, {});
+
+// create the tree array
+var treeData = [];
+data.forEach(function(node) {
+	// add to parent
+	var parent = dataMap[node.parent];
+	if (parent) {
+		// create child array if it doesn't exist
+		(parent.children || (parent.children = []))
+			// add node to child array
+			.push(node);
+	} else {
+		// parent is null or missing
+		treeData.push(node);
+	}
+});
+
+  root = treeData[0];
+  update(root);
+});
+    
+    
+}
+
+function updateData1938(){
+    d3.csv("1938_tree.csv", function(error, data) {
+    svg.selectAll("*").remove();
+    
+var dataMap = data.reduce(function(map, node) {
+	map[node.name] = node;
+	return map;
+}, {});
+
+// create the tree array
+var treeData = [];
+data.forEach(function(node) {
+	// add to parent
+	var parent = dataMap[node.parent];
+	if (parent) {
+		// create child array if it doesn't exist
+		(parent.children || (parent.children = []))
+			// add node to child array
+			.push(node);
+	} else {
+		// parent is null or missing
+		treeData.push(node);
+	}
+});
+
+  root = treeData[0];
+  update(root);
+});
+    
+    
+}
+
+function updateData1934(){
+    d3.csv("1934_tree.csv", function(error, data) {
+    svg.selectAll("*").remove();
+    
+var dataMap = data.reduce(function(map, node) {
+	map[node.name] = node;
+	return map;
+}, {});
+
+// create the tree array
+var treeData = [];
+data.forEach(function(node) {
+	// add to parent
+	var parent = dataMap[node.parent];
+	if (parent) {
+		// create child array if it doesn't exist
+		(parent.children || (parent.children = []))
+			// add node to child array
+			.push(node);
+	} else {
+		// parent is null or missing
+		treeData.push(node);
+	}
+});
+
+  root = treeData[0];
+  update(root);
+});
+    
+    
+}
+
+function updateData1930(){
+    d3.csv("1930_tree.csv", function(error, data) {
+    svg.selectAll("*").remove();
+    
+var dataMap = data.reduce(function(map, node) {
+	map[node.name] = node;
+	return map;
+}, {});
+
+// create the tree array
+var treeData = [];
+data.forEach(function(node) {
+	// add to parent
+	var parent = dataMap[node.parent];
+	if (parent) {
+		// create child array if it doesn't exist
+		(parent.children || (parent.children = []))
+			// add node to child array
+			.push(node);
+	} else {
+		// parent is null or missing
+		treeData.push(node);
+	}
+});
+
+  root = treeData[0];
+  update(root);
+});
+    
+    
+}
