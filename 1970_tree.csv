@@ -1,0 +1,16 @@
+name,parent,finish,wins,ties,losses,goalsfor,goalsagainst,crest
+wBrazil,null,Champions,6,1,0,14,5,argentina.jpg
+fBrazil,wBrazil,Champions,6,1,0,14,5,argentina.jpg
+fItaly,wBrazil,Runners up,4,1,2,8,7,germany_west.jpg
+sUruguay,fBrazil,Champions,6,1,0,14,5,argentina.jpg
+sBrazil,fBrazil,Semi-finals,3,1,3,12,15,belgium.jpg
+sWest Germany,fItaly,Runners up,4,1,2,8,7,germany_west.jpg
+sItaly,fItaly,Semi-finals,5,1,1,12,6,france.jpg
+qSoviet Union,sUruguay,Champions,6,1,0,14,5,argentina.jpg
+qUruguay,sUruguay,Quarter-finals,2,1,2,7,3,england.jpg
+qBrazil,sBrazil,Quarter-finals,3,0,2,11,4,spain.jpg
+qPeru,sBrazil,Semi-finals,3,1,3,12,15,belgium.jpg
+qItaly,sItaly,Quarter-finals,4,0,1,10,2,brazil.jpg
+qMexico,sItaly,Semi-finals,5,1,1,12,6,france.jpg
+qWest Germany,sWest Germany,Runners up,4,1,2,8,7,germany_west.jpg
+qEngland,sWest Germany,Quarter-finals,3,1,1,6,2,mexico.jpg

@@ -1,0 +1,12 @@
+name,parent,finish,wins,ties,losses,goalsfor,goalsagainst,crest
+wArgentina,null,Champions,6,1,0,15,5,argentina.jpg
+fArgentina,wArgentina,Runners up,4,1,2,5,4,argentina.jpg
+fNetherlands,wArgentina,Champions,6,1,0,15,5,netherlands.jpg
+rNetherlands,fNetherlands,2nd Group stage,2,1,3,3,2,netherlands.jpg
+rItaly,fNetherlands,Runners up,4,1,2,12,10,italy.jpg
+rWest Germany,fNetherlands,2nd Group stage,3,2,0,6,1,germany_west.jpg
+rAustria,fNetherlands,2nd Group stage,1,2,2,4,5,austria.jpg
+rArgentina,fArgentina,Champions,5,3,0,12,6,argentina.jpg
+rBrazil,fArgentina,2nd Group stage,4,0,1,15,6,brazil.jpg
+rPoland,fArgentina,2nd Group stage,5,1,1,15,4,poland.jpg
+rPeru,fArgentina,Semi-finals,3,1,3,16,12,peru.jpg
