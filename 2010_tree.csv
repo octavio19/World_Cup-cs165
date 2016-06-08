@@ -8,7 +8,7 @@ sUruguay,fNetherlands,Semi-Finalist,4,1,2,11,8,uruguay.jpg
 sGermany,fSpain,Semi-finals,5,0,2,16,5,germany.jpg
 qSpain,sSpain,Champion,6,0,1,8,2,spain.jpg
 qNetherlands,sNetherlands,Runners up,6,0,1,12,6,netherlands.jpg
-qUruguay,sUruguay,Semi-Finalist,4,1,2,11,8
+qUruguay,sUruguay,Semi-Finalist,4,1,2,11,8, uruguay.jpg
 qGermany,sGermany,Semi-finals,5,0,2,16,5,germany.jpg
 qParaguay,sSpain,Quarter-finals,2,2,1,3,2,paraguay.jpg
 qGhana,sUruguay,Quarter-finals,2,1,2,5,4,ghana.jpg
@@ -16,7 +16,7 @@ qBrazil,sNetherlands,Quarter-finals,3,1,1,9,4,brazil.jpg
 qArgentina,sGermany,Quarter-finals,4,0,1,10,6,argentina.jpg
 rSpain,qSpain,Champion,6,0,1,8,2,spain.jpg
 rNetherlands,qNetherlands,Runners up,6,0,1,12,6,netherlands.jpg
-rUruguay,qUruguay,Semi-Finalist,4,1,2,11,8
+rUruguay,qUruguay,Semi-Finalist,4,1,2,11,8,uruguay.jpg
 rGermany,qGermany,Semi-finals,5,0,2,16,5,germany.jpg
 rParaguay,qParaguay,Quarter-finals,2,2,1,3,2,paraguay.jpg
 rGhana,qGhana,Quarter-finals,2,1,2,5,4,ghana.jpg
