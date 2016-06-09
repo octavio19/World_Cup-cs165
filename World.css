@@ -15,22 +15,12 @@ td, th {
 table {table-layout:fixed}
 
 td.logo{
-    background-color: beige;
+    background-color: lightgoldenrodyellow;
 }
-
-#navBar {
-    width: 85%;
-    height: 1px;
-    margin-left: 5%;
-    margin-right: auto;
-    margin-top: 2%;
-    border-width: px;
-    border-style: solid;
-    border-radius: 20px;
-    border-color: #008040;
-    overflow: hidden;
-} 
-        
+h2{
+    font-size: 15px;
+    background-color: aliceblue;
+}        
           
     #subDiv1 input {
     background:url(./2014.png) no-repeat;

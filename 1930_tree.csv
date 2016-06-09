@@ -1,12 +1,12 @@
 name,parent,finish,wins,ties,losses,goalsfor,goalsagainst,crest
 wUruguay,null,Champions,4,0,0,15,3,uruguay.jpg
 fArgentina,wUruguay,Runners up,4,0,1,18,9,argentina.jpg
-fUruguay,wUruguay,4,0,0,15,3,uruguay.jpg
-sUruguay,fUruguay,4,0,0,15,3,uruguay.jpg
+fUruguay,wUruguay,Champions,4,0,0,15,3,uruguay.jpg
+sUruguay,fUruguay,Champions,4,0,0,15,3,uruguay.jpg
 sArgentina,fArgentina,Runners up,4,0,1,18,9,argentina.jpg
 sYugoslavia,fUruguay,Semi-finals,2,0,1,7,7,yugoslavia.jpg
 sUSA,fArgentina,Semi-finals,2,0,1,7,6,usa.jpg
-rUruguay,sUruguay,4,0,0,15,3,uruguay.jpg
+rUruguay,sUruguay,Champions,4,0,0,15,3,uruguay.jpg
 rArgentina,sArgentina,Runners up,4,0,1,18,9,argentina.jpg
 rYugoslavia,sYugoslavia,Semi-finals,2,0,1,7,7,yugoslavia.jpg
 rUSA,sUSA,Semi-finals,2,0,1,7,6,usa.jpg
