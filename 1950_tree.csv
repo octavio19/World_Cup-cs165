@@ -1,1 +1,21 @@
 name,parent,finish,wins,ties,losses,goalsfor,goalsagainst,crest
+wUruguay,null,Champions,3,1,0,15,5,uruguay.jpg
+fUruguay,wUruguay,Champions,3,1,0,15,5,uruguay.jpg
+fSweden,wUruguay,2nd Group stage,2,1,2,11,15,sweden.jpg
+fSpain,wUruguay,2nd Group stage,3,1,2,10,12,spain.jpg
+fBrazil,wUruguay,2nd Group stage,4,1,1,22,6,brazil.jpg
+sUruguay,fUruguay,Champions,3,1,0,15,5,uruguay.jpg
+sSweden,fSweden,2nd Group stage,2,1,2,11,15,sweden.jpg
+sSpain,fSpain,2nd Group stage,3,1,2,10,12,spain.jpg
+sYugoslavia,fBrazil,1st Group stage,2,0,1,7,3,yugoslavia.jpg
+sSwitzerland,fBrazil,1st Group stage,1,1,1,4,6,switzerland.jpg
+sChile,fSpain,1st Group stage,1,0,2,5,6,chile.jpg
+sEngland,fSpain,1st Group stage,1,0,2,2,2,england.jpg
+sItaly,fSweden,1st Group stage,1,0,1,4,3,italy.jpg
+sMexico,fBrazil,1st Group stage,0,0,3,2,10,mexico.jpg
+sParaguay,fSweden,1st Group stage,0,1,1,2,4,paraguay.jpg
+sBolivia,fUruguay,1st Group stage,0,0,1,0,8,bolivia.jpg
+sFrance,fUruguay,withdrew,0,0,0,0,0,france.jpg
+sUSA,fSpain,1st Group stage,1,0,2,4,8,usa.jpg
+sIndia,fSweden,withdrew,0,0,0,0,0,india.jpg
+sBrazil,fBrazil,2nd Group stage,4,1,1,22,6,brazil.jpg

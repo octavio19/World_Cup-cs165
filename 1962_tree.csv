@@ -1,16 +1,16 @@
 name,parent,finish,wins,ties,losses,goalsfor,goalsagainst,crest
-wBrazil,null,Champions,6,1,0,14,5,argentina.jpg
-fBrazil,wBrazil,Champions,6,1,0,14,5,argentina.jpg
-fCzechoslovakia,wBrazil,Runners up,4,1,2,8,7,germany_west.jpg
-sCzechoslovakia,fCzechoslovakia,Champions,6,1,0,14,5,argentina.jpg
-sYugoslavia,fCzechoslovakia,Semi-finals,3,1,3,12,15,belgium.jpg
-sBrazil,fBrazil,Runners up,4,1,2,8,7,germany_west.jpg
-sChile,fBrazil,Semi-finals,5,1,1,12,6,france.jpg
-qSoviet Union,sChile,Champions,6,1,0,14,5,argentina.jpg
-qChile,sChile,Quarter-finals,2,1,2,7,3,england.jpg
-qBrazil,sBrazil,Quarter-finals,3,0,2,11,4,spain.jpg
-qEngland,sBrazil,Semi-finals,3,1,3,12,15,belgium.jpg
-qWest Germany,sYugoslavia,Quarter-finals,4,0,1,10,2,brazil.jpg
-qYugoslavia,sYugoslavia,Semi-finals,5,1,1,12,6,france.jpg
-qHungary,sCzechoslovakia,Runners up,4,1,2,8,7,germany_west.jpg
-qCzechoslovakia,sCzechoslovakia,Quarter-finals,3,1,1,6,2,Czechoslovakia.jpg
+wBrazil,null,Champions,5,1,0,14,5,brazil.jpg
+fBrazil,wBrazil,Champions,5,1,0,14,5,brazil.jpg
+fCzechoslovakia,wBrazil,Runner up,3,1,2,7,7,czechoslovakia.jpg
+sCzechoslovakia,fCzechoslovakia,Runner up,3,1,2,7,7,czechoslovakia.jpg
+sYugoslavia,fCzechoslovakia,Semi-finals,3,0,3,10,7,yugoslavia.jpg
+sBrazil,fBrazil,Champions,5,1,0,14,5,brazil.jpg
+sChile,fBrazil,Semi-finals,4,0,2,10,8,chile.jpg
+qSoviet Union,sChile,Quarter-finals,2,1,1,9,7,soviet_union.jpg
+qChile,sChile,Semi-finals,4,0,2,10,8,chile.jpg
+qBrazil,sBrazil,Champions,5,1,0,14,5,brazil.jpg
+qEngland,sBrazil,Quarter-finals,1,1,2,5,6,england.jpg
+qWest Germany,sYugoslavia,Quarter-finals,2,1,1,4,2,germany_west.jpg
+qYugoslavia,sYugoslavia,Semi-finals,3,0,3,10,7,yugoslavia.jpg
+qHungary,sCzechoslovakia,Quarter-finals,2,1,1,8,3,hungary.jpg
+qCzechoslovakia,sCzechoslovakia,Runner up,3,1,2,7,7,czechoslovakia.jpg
