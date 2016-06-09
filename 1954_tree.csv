@@ -1,1 +1,16 @@
 name,parent,finish,wins,ties,losses,goalsfor,goalsagainst,crest
+wWest Germany,null,Champions,5,0,1,25,13,germany.jpg
+fWest Germany,wWest Germany,Champions,5,0,1,25,13,germany.jpg
+fHungary,wWest Germany,Runners up,5,0,1,27,9,hungary.jpg
+sWest Germany,fWest Germany,Champions,5,0,1,25,13,germany.jpg
+sHungary,fHungary,Runners up,5,0,1,27,9,hungary.jpg
+sUruguay,fHungary,Semi-finals,3,0,2,16,9,uruguay.jpg
+sAustria,fWest Germany,Semi-finals,4,0,1,17,12,austria.jpg
+qWest Germany,sWest Germany,Champions,5,0,1,25,13,germany.jpg
+qHungary,sHungary,Runners up,5,0,1,27,9,hungary.jpg
+qUruguay,sUruguay,Semi-finals,3,0,2,16,9,uruguay.jpg
+qAustria,sAustria,Semi-finals,4,0,1,17,12,austria.jpg
+qBrazil,sHungary,Quarter-finals,1,1,1,8,5,brazil.jpg
+qEngland,sUruguay,Quarter-finals,1,1,1,8,8,england.jpg
+qSwitzerland,sAustria,Quarter-finals,2,0,2,11,11,switzerland.jpg
+qYugoslavia,sWest Germany,Quarter-finals,1,1,1,2,3,yugoslavia.jpg
