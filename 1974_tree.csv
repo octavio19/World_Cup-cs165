@@ -1,12 +1,12 @@
 name,parent,finish,wins,ties,losses,goalsfor,goalsagainst,crest
 wWest Germany,null,Champions,6,0,1,13,4,germany_west.jpg
 fWest Germany,wWest Germany,Champions,6,0,1,13,4,germany_west.jpg
-fNetherlands,wWest Germany,Champions,6,1,0,15,5,netherlands.jpg
-rNetherlands,fNetherlands,2nd Group stage,2,1,3,3,2,netherlands.jpg
-rBrazil,fNetherlands,Runners up,4,1,2,12,10,brazil.jpg
-rEast Germany,fNetherlands,2nd Group stage,3,2,0,6,1,germany_east.jpg
-rWest Germany,fNetherlands,Champions,6,0,1,13,4,germany_west.jpg
-rArgentina,fWest Germany,Champions,5,3,0,12,6,argentina.jpg
+fNetherlands,wWest Germany,Runners up,5,1,1,15,3,netherlands.jpg
+rNetherlands,fNetherlands,Runners up,5,1,1,15,3,netherlands.jpg
+rBrazil,fNetherlands,2nd group stage,3,2,2,6,4,brazil.jpg
+rEast Germany,fNetherlands,2nd Group stage,2,2,2,5,5,germany_east.jpg
+rWest Germany,fWest Germany,Champions,6,0,1,13,4,germany_west.jpg
+rArgentina,fNetherlands,2nd Group stage,1,2,3,9,12,argentina.jpg
 rSweden,fWest Germany,2nd Group stage,4,0,1,15,6,sweden.jpg
-rPoland,fWest Germany,2nd Group stage,5,1,1,15,4,poland.jpg
+rPoland,fWest Germany,2nd group stage,6,0,1,16,5,poland.jpg
 rYugoslavia,fWest Germany,Semi-finals,3,1,3,16,12,yugoslavia.jpg
