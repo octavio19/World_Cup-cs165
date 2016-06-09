@@ -20,11 +20,11 @@ td.logo{
 
 #navBar {
     width: 85%;
-    height: px;
+    height: 1px;
     margin-left: 5%;
     margin-right: auto;
     margin-top: 2%;
-    border-width: 5px;
+    border-width: px;
     border-style: solid;
     border-radius: 20px;
     border-color: #008040;
