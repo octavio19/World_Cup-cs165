@@ -191,8 +191,8 @@ function update(source) {
           .duration(200)
           .style("opacity", .9);
         div .html(
-            "" + d.name.substring(1) + "<br/>" +
-            "Finish: " + d.finish + "<br/>" +
+            "   " + d.name.substring(1) + "<br/>" +
+            "Finish:" + d.finish + "<br/>" +
             "Wins: " + d.wins + "<br/>" +
             "Ties: " + d.ties + "<br/>" +
             "Losses:" + d.losses + "<br/>" +
