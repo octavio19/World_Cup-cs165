@@ -15,11 +15,11 @@ td, th {
 table {table-layout:fixed}
 
 td.logo{
-    background-color: beige;
+    background-color: lightgoldenrodyellow;
 }
 h2{
-    font-size: 13px;
-    background-color: lightblue
+    font-size: 15px;
+    background-color: aliceblue;
 }        
           
     #subDiv1 input {
