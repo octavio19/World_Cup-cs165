@@ -1,0 +1,32 @@
+name,parent,finish,wins,ties,losses,goalsfor,goalsagainst,crest
+wItaly,null,Champions,4,0,0,11,5,italy.jpg
+fItaly,wItaly,Champions,4,0,0,11,5,italy.jpg
+fHungary,wItaly,Runners up,3,0,1,15,5,hungary.jpg
+sItaly,fItaly,Champions,4,0,0,11,5,italy.jpg
+sHungary,fHungary,Runners up,3,0,1,15,5,hungary.jpg
+sSweden,fHungary,Semi-finals,1,0,2,11,9,sweden.jpg
+sBrazil,fItaly,Semi-finals,3,1,1,14,11,brazil.jpg
+qItaly,sItaly,Champions,4,0,0,11,5,italy.jpg
+qHungary,sHungary,Runners up,3,0,1,15,5,hungary.jpg
+qSweden,sSweden,Semi-finals,1,0,2,11,9,sweden.jpg
+qBrazil,sBrazil,Semi-finals,3,1,1,14,11,brazil.jpg
+qCuba,sSweden,Quarter-finals,1,1,1,5,12,cuba.jpg
+qCzechoslovakia,sBrazil,Quarter-finals,1,1,1,5,3,czechoslovakia.jpg
+qFrance,sItaly,Quarter-finals,1,0,1,4,4,france.jpg
+qSwitzerland,sHungary,Quarter-finals,1,1,1,5,5,switzerland.jpg
+rItaly,qItaly,Champions,4,0,0,11,5,italy.jpg
+rHungary,qHungary,Runners up,3,0,1,15,5,hungary.jpg
+rSweden,qSweden,Semi-finals,1,0,2,11,9,sweden.jpg
+rBrazil,qBrazil,Semi-finals,3,1,1,14,11,brazil.jpg
+rCuba,qCuba,Quarter-finals,1,1,1,5,12,cuba.jpg
+rCzechoslovakia,qCzechoslovakia,Quarter-finals,1,1,1,5,3,czechoslovakia.jpg
+rFrance,qFrance,Quarter-finals,1,0,1,4,4,france.jpg
+rSwitzerland,qSwitzerland,Quarter-finals,1,1,1,5,5,switzerland.jpg
+rNetherlands,qCzechoslovakia,1st Round,0,0,1,0,3,netherlands.jpg
+rNorway,qItaly,1st Round,0,0,1,1,2,norway.jpg
+rPoland,qBrazil,1st Round,0,0,1,5,6,poland.jpg
+rRomania,qCuba,1st Round,0,1,1,4,5,romania.jpg
+rGermany,qSwitzerland,1st Round,0,1,1,3,5,germany.jpg
+rDutch East Indies,qHungary,1st Round,0,0,1,0,6,dutch_east_indies.jpg
+rBelgium,qFrance,1st Round,0,0,1,1,3,belgium.jpg
+rAustria,qSweden,withdrew,0,0,0,0,0,austria.jpg

@@ -1,0 +1,32 @@
+name,parent,finish,wins,ties,losses,goalsfor,goalsagainst,crest
+wItaly,null,Champions,4,1,0,12,3,italy.jpg
+fItaly,wItaly,Champions,4,1,0,12,3,italy.jpg
+fCzechoslovakia,wItaly,Runners up,3,0,1,9,6,czechoslovakia.jpg
+sItaly,fItaly,Champions,4,1,0,12,3,italy.jpg
+sCzechoslovakia,fCzechoslovakia,Runners up,3,0,1,9,6,czechoslovakia.jpg
+sGermany,fCzechoslovakia,Semi-finals,3,0,1,11,8,germany.jpg
+sAustria,fItaly,Semi-finals,2,0,2,7,7,austria.jpg
+qItaly,sItaly,Champions,4,1,0,12,3,italy.jpg
+qCzechoslovakia,sCzechoslovakia,Runners up,3,0,1,9,6,czechoslovakia.jpg
+qGermany,sGermany,Semi-finals,3,0,1,11,8,germany.jpg
+qAustria,sAustria,Semi-finals,2,0,2,7,7,austria.jpg
+qHungary,sAustria,Quarter-finals,1,0,1,5,4,hungary.jpg
+qSwitzerland,sCzechoslovakia,Quarter-finals,1,0,1,5,5,switzerland.jpg
+qSpain,sItaly,Quarter-finals,1,1,1,4,3,spain.jpg
+qSweden,sGermany,Quarter-finals,1,0,1,4,4,sweden.jpg
+rItaly,qItaly,Champions,4,1,0,12,3,italy.jpg
+rCzechoslovakia,qCzechoslovakia,Runners up,3,0,1,9,6,czechoslovakia.jpg
+rGermany,qGermany,Semi-finals,3,0,1,11,8,germany.jpg
+rAustria,qAustria,Semi-finals,2,0,2,7,7,austria.jpg
+rHungary,qHungary,Quarter-finals,1,0,1,5,4,hungary.jpg
+rSwitzerland,qSwitzerland,Quarter-finals,1,0,1,5,5,switzerland.jpg
+rSpain,qSpain,Quarter-finals,1,1,1,4,3,spain.jpg
+rUSA,qItaly,Last 16,0,0,1,1,7,usa.jpg
+rSweden,qSweden,Quarter-finals,1,0,1,4,4,sweden.jpg
+rRomania,qCzechoslovakia,Last 16,0,0,1,1,2,romania.jpg
+rNetherlands,qSwitzerland,Last 16,0,0,1,2,3,netherlands.jpg
+rEgypt,qHungary,Last 16,0,0,1,2,4,egypt.jpg
+rFrance,qAustria,Last 16,0,0,1,2,3,france.jpg
+rBelgium,qGermany,Last 16,0,0,1,2,5,belgium.jpg
+rBrazil,qSpain,Last 16,0,0,1,1,3,brazil.jpg
+rArgentina,qSweden,Last 16,0,0,1,2,3,argentina.jpg
