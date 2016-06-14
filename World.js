@@ -193,7 +193,7 @@ function update(source) {
         div .html(
             "   " + d.name.substring(1) + "<br/>" +
             "Finish:" + d.finish + "<br/>" +
-            "Wins: " + d.wins + "<br/>" +
+            "Wins:         " + d.wins + "<br/>" +
             "Ties: " + d.ties + "<br/>" +
             "Losses:" + d.losses + "<br/>" +
             "Goals: " + d.goalsfor + "<br/>" +
@@ -234,6 +234,8 @@ function update(source) {
 	  .text(function(d) { return d.name.substring(1); })
   	  .style("fill-opacity", 1);
 
+    
+    
 // add the tool tip
   var div = d3.select("#area1").append("div")
     .attr("class", "tooltip")
