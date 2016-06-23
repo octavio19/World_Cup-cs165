@@ -16,7 +16,7 @@ d3.csv("Champions.csv", function(data){
           return d.Year;
       }
     }, {
-      head: '',
+      head: 'Select',
       cl: 'logo',
       html: function(d) {
         var func = "updateData" + d.Year + "()";  
