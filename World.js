@@ -260,6 +260,7 @@ function update(source) {
 function updateData2010() {
 d3.csv("2010_tree.csv", function(error, data) {
 svg.selectAll("*").remove();
+    
 // *********** Convert flat data into a nice tree ***************
 // create a name: node map
 var dataMap = data.reduce(function(map, node) {
